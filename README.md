@@ -104,8 +104,9 @@ ORDER BY position;
 
 `current_standings` holds the current table of every headline competition:
 Six Nations, Rugby Championship, Nations Championship, Gallagher Prem, URC,
-Top 14, Champions Cup, Challenge Cup and Super Rugby. If a competition's new
-season has no games yet, the table shows its last completed season. In pool
+Top 14, Champions Cup, Challenge Cup and Super Rugby. If ESPN has no table
+for a competition's new season yet (no games played, or no table published),
+the rows show the last completed season; the `season` column says which. In pool
 competitions, each team appears once per pool, and `group_name` names the pool.
 
 ```sql
@@ -205,6 +206,8 @@ ORDER BY jersey_number;
 ESPN's rugby team-roster endpoints come back empty, so this worker builds
 squads from match summaries. ESPN does not set its own starter flag for rugby.
 The worker sets `is_starter` from shirt numbers instead: numbers 1-15 started.
+ESPN often flags no captain, so `is_captain` is `NULL` for such a side. ESPN's
+rugby feed does not record substitutions; `match_timeline()` has them.
 
 ## Data sources, licensing and affiliation
 

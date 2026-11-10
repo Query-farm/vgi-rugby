@@ -480,7 +480,10 @@ class MatchLineupsFunction(TableFunctionGenerator[EventArgs]):
                 "position and whether the player started (shirts 1-15) or was a replacement. "
                 "ESPN's team roster endpoints are empty for rugby, so this is the squad source."
             ),
-            md="One row per named player; ESPN's captain and substitution flags are passed through as given.",
+            md=(
+                "One row per named player. `is_captain` is NULL for a side where ESPN flags no captain. "
+                "ESPN's rugby feed does not record substitution times; use `match_timeline()` for those."
+            ),
             examples=[
                 (
                     "Ireland's starting fifteen against Scotland, 14 March 2026.",

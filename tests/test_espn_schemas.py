@@ -150,7 +150,21 @@ def test_player_box_score_and_lineups() -> None:
     batch_from_rows(rows, espn_schemas.PLAYER_STATS_SCHEMA)
     lineups = espn_schemas.flatten_lineups(summary, SIX_NATIONS, 602514)
     assert len(lineups) == len(rows)
+    # ESPN flags no captain for either side in this match, so the flag is unknown.
+    assert all(row["is_captain"] is None for row in lineups)
+    assert "subbed_in" not in espn_schemas.LINEUP_SCHEMA.names
     batch_from_rows(lineups, espn_schemas.LINEUP_SCHEMA)
+
+
+def test_lineup_captain_flag_is_per_team() -> None:
+    summary = load("espn_summary_602514.json")
+    home = next(roster for roster in summary["rosters"] if roster["homeAway"] == "home")
+    home["roster"][0]["captain"] = True
+    lineups = espn_schemas.flatten_lineups(summary, SIX_NATIONS, 602514)
+    home_flags = {row["is_captain"] for row in lineups if row["home_away"] == "home"}
+    away_flags = {row["is_captain"] for row in lineups if row["home_away"] == "away"}
+    assert home_flags == {True, False}
+    assert away_flags == {None}
 
 
 def test_teams() -> None:

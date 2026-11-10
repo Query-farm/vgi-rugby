@@ -90,7 +90,11 @@ MATCH_SCHEMA = pa.schema(
         field("venue_city", pa.string(), "City in which the stadium is located."),
         field("venue_country", pa.string(), "Country in which the stadium is located."),
         field("attendance", pa.int32(), "Reported attendance as a count of spectators, when supplied."),
-        field("match_clock", pa.string(), "Game clock label, such as 80:16."),
+        field(
+            "match_clock",
+            pa.string(),
+            "Game clock label of a match in play, such as 54:16; NULL when the feed reports no clock.",
+        ),
     ]
 )
 
@@ -234,6 +238,7 @@ def flatten_match(match: Mapping[str, Any]) -> dict[str, Any] | None:
     events = sequence(match.get("events"))
     first_event = mapping(events[0]) if events else {}
     status = to_text(match.get("status"))
+    clock = mapping(match.get("clock"))
     outcome = _OUTCOMES.get(str(match.get("outcome")))
     winner = {"home": home, "away": away}.get(outcome or "", {})
     return {
@@ -260,7 +265,8 @@ def flatten_match(match: Mapping[str, Any]) -> dict[str, Any] | None:
         "venue_city": to_text(venue.get("city")),
         "venue_country": to_text(venue.get("country")),
         "attendance": to_int(match.get("attendance")),
-        "match_clock": to_text(mapping(match.get("clock")).get("label")),
+        # The feed reports 00:00 for every finished and upcoming match.
+        "match_clock": to_text(clock.get("label")) if to_int(clock.get("secs")) else None,
     }
 
 

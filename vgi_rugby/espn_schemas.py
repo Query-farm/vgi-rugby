@@ -166,9 +166,11 @@ _PLAYER_FIELDS = [
 LINEUP_SCHEMA = pa.schema(
     [
         *_PLAYER_FIELDS,
-        field("is_captain", pa.bool_(), "Whether ESPN flags the player as captain."),
-        field("subbed_in", pa.bool_(), "Whether ESPN records the player coming on as a replacement."),
-        field("subbed_out", pa.bool_(), "Whether ESPN records the player being replaced."),
+        field(
+            "is_captain",
+            pa.bool_(),
+            "Whether ESPN flags the player as captain; NULL for a team where ESPN flags no captain.",
+        ),
     ]
 )
 
@@ -442,11 +444,14 @@ def _roster_rows(summary: Mapping[str, Any], league: League, event_id: int) -> l
                     "position_abbreviation": to_text(position.get("abbreviation")),
                     "is_starter": None if jersey is None else jersey <= 15,
                     "is_captain": to_bool(entry.get("captain")),
-                    "subbed_in": to_bool(entry.get("subbedIn")),
-                    "subbed_out": to_bool(entry.get("subbedOut")),
                     "_stats": stats,
                 }
             )
+    # ESPN often leaves every captain flag false; "no captain" then means unknown, not none.
+    flagged = {row["home_away"] for row in rows if row["is_captain"]}
+    for row in rows:
+        if row["home_away"] not in flagged:
+            row["is_captain"] = None
     rows.sort(key=lambda value: (value["home_away"] != "home", value["jersey_number"] or 99))
     return rows
 

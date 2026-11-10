@@ -80,7 +80,16 @@ def test_matches() -> None:
     unconfirmed = [row for row in rows if row["status_code"] == "U"]
     assert unconfirmed and all(row["outcome"] is None for row in unconfirmed)
     assert all(row["is_complete"] is False for row in unconfirmed)
+    # The feed reports a 00:00 clock outside play, which carries no information.
+    assert all(row["match_clock"] is None for row in rows)
     batch_from_rows(rows, wr_schemas.MATCH_SCHEMA)
+
+
+def test_match_clock_in_play() -> None:
+    match = dict(load("wr_matches.json")["content"][0], status="L2", clock={"secs": 3256, "label": "54:16"})
+    row = wr_schemas.flatten_match(match)
+    assert row is not None
+    assert row["match_clock"] == "54:16"
 
 
 def test_matches_deduplicate_across_pages() -> None:
