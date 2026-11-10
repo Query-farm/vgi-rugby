@@ -1,0 +1,1579 @@
+{
+ "match": {
+  "matchId": "d21f7bed-f2f9-45bd-be33-3a0fc9beec42",
+  "matchAltId": "d21f7bed-f2f9-45bd-be33-3a0fc9beec42",
+  "description": null,
+  "eventPhase": null,
+  "eventPhaseId": null,
+  "venue": {
+   "id": "3",
+   "altId": "29e4b8a8-2de0-4311-b4c0-aed196480b73",
+   "name": "Allianz Stadium",
+   "city": "London",
+   "country": "England"
+  },
+  "time": {
+   "millis": 1794150600000,
+   "gmtOffset": 0.0,
+   "label": "2026-11-08"
+  },
+  "attendance": null,
+  "teams": [
+   {
+    "id": "34",
+    "altId": "b543a019-7df4-4ba0-b1e9-bc796d20df88",
+    "name": "England",
+    "abbreviation": "ENG",
+    "countryCode": null,
+    "annotations": null,
+    "metadata": {}
+   },
+   {
+    "id": "38",
+    "altId": "d655c863-3956-41fe-955d-02f7d2d00bc5",
+    "name": "Australia",
+    "abbreviation": "AUS",
+    "countryCode": null,
+    "annotations": null,
+    "metadata": {}
+   }
+  ],
+  "scores": [
+   45,
+   22
+  ],
+  "kc": null,
+  "status": "C",
+  "clock": {
+   "secs": 4816,
+   "label": "80:16"
+  },
+  "outcome": "A",
+  "events": [
+   {
+    "id": "46294cf5-dee3-4234-957a-dbe1f08049f2",
+    "altId": "46294cf5-dee3-4234-957a-dbe1f08049f2",
+    "label": "Nations Championship 2026",
+    "sport": "mru",
+    "start": {
+     "millis": 1783036800000,
+     "gmtOffset": 0.0,
+     "label": "2026-07-03"
+    },
+    "end": {
+     "millis": 1795910400000,
+     "gmtOffset": 0.0,
+     "label": "2026-11-29"
+    },
+    "abbr": "",
+    "winningTeam": null,
+    "eventStatus": {
+     "eventStatusID": 1,
+     "eventStatusName": "Scheduled"
+    },
+    "seriesId": null,
+    "seriesAltId": null,
+    "rankingsWeight": 0.0,
+    "metadata": {},
+    "impactPlayers": null,
+    "teamPerformances": null
+   }
+  ],
+  "sport": "mru",
+  "competition": "Nations Championship 2026",
+  "weather": {
+   "matchWeather": null,
+   "matchMinTemperature": null,
+   "matchMaxTemperature": null,
+   "matchWindConditions": null,
+   "matchPitchConditions": null
+  },
+  "rankingsWeight": null
+ },
+ "timeline": [
+  {
+   "phase": "L1",
+   "time": {
+    "secs": 2,
+    "label": "00:02"
+   },
+   "type": "MS",
+   "typeLabel": "Change Match Status",
+   "group": "MS",
+   "points": 0,
+   "playerId": null,
+   "playerAltId": null,
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794150602000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L1",
+   "time": {
+    "secs": 462,
+    "label": "07:42"
+   },
+   "type": "T5",
+   "typeLabel": "Try",
+   "group": "Try",
+   "points": 5,
+   "playerId": "36524",
+   "playerAltId": "5fa5dc62-1ee9-47d2-ad97-1a6dfb3e3842",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794151062000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L1",
+   "time": {
+    "secs": 669,
+    "label": "11:09"
+   },
+   "type": "P3",
+   "typeLabel": "Penalty",
+   "group": "Pen",
+   "points": 3,
+   "playerId": "60431",
+   "playerAltId": "04cf6c68-af01-4e4c-b2e2-22f7342e1c62",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794151269000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L1",
+   "time": {
+    "secs": 1551,
+    "label": "25:51"
+   },
+   "type": "T5",
+   "typeLabel": "Try",
+   "group": "Try",
+   "points": 5,
+   "playerId": "72931",
+   "playerAltId": "d84b85e7-9214-4a4f-a138-e3fb5dc9c915",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794152151000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L1",
+   "time": {
+    "secs": 1609,
+    "label": "26:49"
+   },
+   "type": "C2",
+   "typeLabel": "Conversion",
+   "group": "Con",
+   "points": 2,
+   "playerId": "71358",
+   "playerAltId": "e64a9cfa-4d28-46e7-84ee-c8526ca8545a",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794152209000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L1",
+   "time": {
+    "secs": 1861,
+    "label": "31:01"
+   },
+   "type": "Yellow",
+   "typeLabel": "Yellow Card",
+   "group": "YC",
+   "points": 0,
+   "playerId": "66845",
+   "playerAltId": "3f507ed2-d4aa-4ca3-8ce1-9ec8a783b3d5",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794152461000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L1",
+   "time": {
+    "secs": 1974,
+    "label": "32:54"
+   },
+   "type": "T5",
+   "typeLabel": "Try",
+   "group": "Try",
+   "points": 5,
+   "playerId": "62479",
+   "playerAltId": "201076b6-e39a-4805-b86a-f71f55113ea2",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794152574000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L1",
+   "time": {
+    "secs": 2026,
+    "label": "33:46"
+   },
+   "type": "C2",
+   "typeLabel": "Conversion",
+   "group": "Con",
+   "points": 2,
+   "playerId": "71358",
+   "playerAltId": "e64a9cfa-4d28-46e7-84ee-c8526ca8545a",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794152626000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L1",
+   "time": {
+    "secs": 2354,
+    "label": "39:14"
+   },
+   "type": "T5",
+   "typeLabel": "Try",
+   "group": "Try",
+   "points": 5,
+   "playerId": "a3fbed60-014b-4fc7-82e3-61eb8e720847",
+   "playerAltId": "a3fbed60-014b-4fc7-82e3-61eb8e720847",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794152954000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L1",
+   "time": {
+    "secs": 2409,
+    "label": "40:09"
+   },
+   "type": "C2",
+   "typeLabel": "Conversion",
+   "group": "Con",
+   "points": 2,
+   "playerId": "60431",
+   "playerAltId": "04cf6c68-af01-4e4c-b2e2-22f7342e1c62",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153009000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "LHT",
+   "time": {
+    "secs": 2412,
+    "label": "40:12"
+   },
+   "type": "MS",
+   "typeLabel": "Change Match Status",
+   "group": "MS",
+   "points": 0,
+   "playerId": null,
+   "playerAltId": null,
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153012000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 2403,
+    "label": "40:03"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "0237b855-7cdf-49c6-b720-2d35ea6d4bbd",
+   "playerAltId": "0237b855-7cdf-49c6-b720-2d35ea6d4bbd",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 1,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153003000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 2403,
+    "label": "40:03"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "c09ef62a-2447-4a70-8fec-8adce9af03bf",
+   "playerAltId": "c09ef62a-2447-4a70-8fec-8adce9af03bf",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 1,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153003000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 2524,
+    "label": "42:04"
+   },
+   "type": "T5",
+   "typeLabel": "Try",
+   "group": "Try",
+   "points": 5,
+   "playerId": "74269",
+   "playerAltId": "8bbf2180-84b1-4a5b-9b0d-96a69493b294",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153124000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 2553,
+    "label": "42:33"
+   },
+   "type": "C2",
+   "typeLabel": "Conversion",
+   "group": "Con",
+   "points": 2,
+   "playerId": "71358",
+   "playerAltId": "e64a9cfa-4d28-46e7-84ee-c8526ca8545a",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153153000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 2779,
+    "label": "46:19"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "60450",
+   "playerAltId": "d7dedd8a-4f28-43bb-bdbc-b5c6c89b7277",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 2,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153379000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 2779,
+    "label": "46:19"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "55788",
+   "playerAltId": "c62c8e28-d6fa-4ffa-a977-f4a6b2698669",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 2,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153379000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 2833,
+    "label": "47:13"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "61868",
+   "playerAltId": "4de41984-713a-46e5-b9a6-039ccbb26121",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 3,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153433000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 2833,
+    "label": "47:13"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "45629",
+   "playerAltId": "39074308-c087-401b-9b84-898df0be2dce",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 3,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153433000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3210,
+    "label": "53:30"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "66844",
+   "playerAltId": "7e725003-46fe-4000-a9ac-1342a28ce474",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 4,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153810000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3210,
+    "label": "53:30"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "a1c63262-24a5-4063-8ef3-c023cfa14cea",
+   "playerAltId": "a1c63262-24a5-4063-8ef3-c023cfa14cea",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 4,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153810000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3268,
+    "label": "54:28"
+   },
+   "type": "T5",
+   "typeLabel": "Try",
+   "group": "Try",
+   "points": 5,
+   "playerId": "0237b855-7cdf-49c6-b720-2d35ea6d4bbd",
+   "playerAltId": "0237b855-7cdf-49c6-b720-2d35ea6d4bbd",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153868000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3340,
+    "label": "55:40"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "63166",
+   "playerAltId": "37ec81dd-9f9a-4621-b8dc-3b39daef451c",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 5,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153940000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3340,
+    "label": "55:40"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "73987",
+   "playerAltId": "4945cbf8-5421-42f9-be29-ae9097dbaf2c",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 5,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153940000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3341,
+    "label": "55:41"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "55592",
+   "playerAltId": "1dd63dba-6aa4-445a-acd4-3e5885685954",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 6,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153941000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3341,
+    "label": "55:41"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "71747",
+   "playerAltId": "89cdef22-3305-4388-9ed3-274785b8d98b",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 6,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153941000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3342,
+    "label": "55:42"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "45651",
+   "playerAltId": "8fb46ab1-1ea3-424e-873e-b4c49eb3be28",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 7,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153942000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3342,
+    "label": "55:42"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "36524",
+   "playerAltId": "5fa5dc62-1ee9-47d2-ad97-1a6dfb3e3842",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 7,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153942000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3343,
+    "label": "55:43"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "73183",
+   "playerAltId": "ccec22a7-eb2a-42ea-beff-fe0eec380219",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 8,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153943000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3343,
+    "label": "55:43"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "59730",
+   "playerAltId": "21375af7-114f-476b-8a8f-7c5528756060",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 8,
+   "info": [],
+   "timestamp": {
+    "millis": 1794153943000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3409,
+    "label": "56:49"
+   },
+   "type": "T5",
+   "typeLabel": "Try",
+   "group": "Try",
+   "points": 5,
+   "playerId": "0237b855-7cdf-49c6-b720-2d35ea6d4bbd",
+   "playerAltId": "0237b855-7cdf-49c6-b720-2d35ea6d4bbd",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154009000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3457,
+    "label": "57:37"
+   },
+   "type": "C2",
+   "typeLabel": "Conversion",
+   "group": "Con",
+   "points": 2,
+   "playerId": "71358",
+   "playerAltId": "e64a9cfa-4d28-46e7-84ee-c8526ca8545a",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154057000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3472,
+    "label": "57:52"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "55232",
+   "playerAltId": "edebcf61-0502-43b1-a268-1386a8140c75",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 9,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154072000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3472,
+    "label": "57:52"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "66852",
+   "playerAltId": "2bb6f5af-8705-44cb-8dbc-fde7d154f3e4",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 9,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154072000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3690,
+    "label": "61:30"
+   },
+   "type": "T5",
+   "typeLabel": "Try",
+   "group": "Try",
+   "points": 5,
+   "playerId": "55232",
+   "playerAltId": "edebcf61-0502-43b1-a268-1386a8140c75",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154290000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3780,
+    "label": "63:00"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "bd69a772-4ce2-4a20-be22-1c8b4659bdbb",
+   "playerAltId": "bd69a772-4ce2-4a20-be22-1c8b4659bdbb",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 10,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154380000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3780,
+    "label": "63:00"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "66845",
+   "playerAltId": "3f507ed2-d4aa-4ca3-8ce1-9ec8a783b3d5",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 10,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154380000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3781,
+    "label": "63:01"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "56808",
+   "playerAltId": "b11dc09a-82e8-415c-a5c0-0bb93aaea392",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 11,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154381000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3781,
+    "label": "63:01"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "62479",
+   "playerAltId": "201076b6-e39a-4805-b86a-f71f55113ea2",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 11,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154381000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3782,
+    "label": "63:02"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "68917",
+   "playerAltId": "1f7c54a7-4b96-44a6-9b48-6148ceba1ef0",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 12,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154382000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3782,
+    "label": "63:02"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "65521",
+   "playerAltId": "6ab668cb-5428-4d8e-9916-f897a8ee7247",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 12,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154382000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3822,
+    "label": "63:42"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "66857",
+   "playerAltId": "73b61a01-3fd1-498c-a261-441c8226e624",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 13,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154422000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3822,
+    "label": "63:42"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "63164",
+   "playerAltId": "5ccb1fd7-a05a-4dfb-8309-946b5f556f32",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 13,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154422000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3823,
+    "label": "63:43"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "59924",
+   "playerAltId": "d1b5f6c5-94b7-4354-acd0-1080e7e2af5d",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 14,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154423000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 3823,
+    "label": "63:43"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "71349",
+   "playerAltId": "2f22932e-49a1-4694-8408-61604032a6e4",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 14,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154423000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 4250,
+    "label": "70:50"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "59640",
+   "playerAltId": "89614443-3576-4e1d-bac8-9c5f9d0e484a",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 15,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154850000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 4250,
+    "label": "70:50"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "60431",
+   "playerAltId": "04cf6c68-af01-4e4c-b2e2-22f7342e1c62",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 15,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154850000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 4393,
+    "label": "73:13"
+   },
+   "type": "T5",
+   "typeLabel": "Try",
+   "group": "Try",
+   "points": 5,
+   "playerId": "74430",
+   "playerAltId": "4076f62b-20dc-48f0-b8fb-43bf805d3dc5",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794154993000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 4448,
+    "label": "74:08"
+   },
+   "type": "C2",
+   "typeLabel": "Conversion",
+   "group": "Con",
+   "points": 2,
+   "playerId": "66844",
+   "playerAltId": "7e725003-46fe-4000-a9ac-1342a28ce474",
+   "teamIndex": 1,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794155048000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 4478,
+    "label": "74:38"
+   },
+   "type": "Sub On",
+   "typeLabel": "Replacement On",
+   "group": "Sub On",
+   "points": 0,
+   "playerId": "45665",
+   "playerAltId": "51d15d5e-e60c-4536-8b37-272acff435d1",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 16,
+   "info": [],
+   "timestamp": {
+    "millis": 1794155078000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 4478,
+    "label": "74:38"
+   },
+   "type": "Sub Off",
+   "typeLabel": "Replacement Off",
+   "group": "Sub Off",
+   "points": 0,
+   "playerId": "74269",
+   "playerAltId": "8bbf2180-84b1-4a5b-9b0d-96a69493b294",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": 16,
+   "info": [],
+   "timestamp": {
+    "millis": 1794155078000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 4521,
+    "label": "75:21"
+   },
+   "type": "T5",
+   "typeLabel": "Try",
+   "group": "Try",
+   "points": 5,
+   "playerId": "45665",
+   "playerAltId": "51d15d5e-e60c-4536-8b37-272acff435d1",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794155121000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  },
+  {
+   "phase": "L2",
+   "time": {
+    "secs": 4578,
+    "label": "76:18"
+   },
+   "type": "C2",
+   "typeLabel": "Conversion",
+   "group": "Con",
+   "points": 2,
+   "playerId": "71358",
+   "playerAltId": "e64a9cfa-4d28-46e7-84ee-c8526ca8545a",
+   "teamIndex": 0,
+   "position": {
+    "x": null,
+    "y": null,
+    "ex": null,
+    "ey": null,
+    "m": null
+   },
+   "link": null,
+   "info": [],
+   "timestamp": {
+    "millis": 1794155178000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1170 @@
+{
+ "uid": "s:300~l:8323",
+ "id": "8675309",
+ "name": "Six Nations",
+ "abbreviation": "Six Nations",
+ "children": [
+  {
+   "uid": "s:300~l:8323~g:1",
+   "id": "1",
+   "name": "Six Nations",
+   "abbreviation": "2024",
+   "shortName": "Six Nations",
+   "standings": {
+    "id": "0",
+    "name": "overall",
+    "displayName": "Standings",
+    "season": 2026,
+    "seasonType": 1,
+    "seasonDisplayName": "2026",
+    "entries": [
+     {
+      "team": {
+       "id": "9",
+       "uid": "s:300~t:9",
+       "name": "France",
+       "abbreviation": "FRA",
+       "displayName": "France",
+       "shortDisplayName": "France",
+       "isActive": true,
+       "isNational": true
+      },
+      "stats": [
+       {
+        "name": "OTLosses",
+        "abbreviation": "OTL",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "OTWins",
+        "abbreviation": "OTW",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "avgPointsAgainst",
+        "abbreviation": "OPP PPG",
+        "value": 26.0,
+        "displayValue": "26.0"
+       },
+       {
+        "name": "avgPointsFor",
+        "abbreviation": "PPG",
+        "value": 42.2,
+        "displayValue": "42.2"
+       },
+       {
+        "name": "differential",
+        "abbreviation": "DIFF",
+        "value": 16.200000000000003,
+        "displayValue": "+16.2"
+       },
+       {
+        "name": "divisionWinPercent",
+        "abbreviation": "DPCT",
+        "value": 0.0,
+        "displayValue": "0.000"
+       },
+       {
+        "name": "gamesBehind",
+        "abbreviation": "GB",
+        "value": 0.0,
+        "displayValue": "-"
+       },
+       {
+        "name": "gamesPlayed",
+        "abbreviation": "GP",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "leagueWinPercent",
+        "abbreviation": "LPCT",
+        "value": 0.0,
+        "displayValue": "0.000"
+       },
+       {
+        "name": "gamesLost",
+        "abbreviation": "L",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "playoffSeed",
+        "abbreviation": "SEED",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "pointsDifference",
+        "abbreviation": "PD",
+        "value": 81.0,
+        "displayValue": "+81"
+       },
+       {
+        "name": "points",
+        "abbreviation": "P",
+        "value": 21.0,
+        "displayValue": "21"
+       },
+       {
+        "name": "pointsAgainst",
+        "abbreviation": "A",
+        "value": 130.0,
+        "displayValue": "130"
+       },
+       {
+        "name": "pointsFor",
+        "abbreviation": "F",
+        "value": 211.0,
+        "displayValue": "211"
+       },
+       {
+        "name": "streak",
+        "abbreviation": "STRK",
+        "value": 0.0,
+        "displayValue": "-"
+       },
+       {
+        "name": "gamesDrawn",
+        "abbreviation": "D",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "winPercent",
+        "abbreviation": "PCT",
+        "value": 0.8,
+        "displayValue": ".800"
+       },
+       {
+        "name": "gamesWon",
+        "abbreviation": "W",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "bonusPoints",
+        "abbreviation": "BP",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "gamesBye",
+        "abbreviation": "Bye",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "bonusPointsLosing",
+        "abbreviation": "LBP",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "rank",
+        "abbreviation": "R",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "triesAgainst",
+        "abbreviation": "TA",
+        "value": 19.0,
+        "displayValue": "19"
+       },
+       {
+        "name": "bonusPointsTry",
+        "abbreviation": "TBP",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "triesDifference",
+        "abbreviation": "TD",
+        "value": 11.0,
+        "displayValue": "11"
+       },
+       {
+        "name": "triesFor",
+        "abbreviation": "TF",
+        "value": 30.0,
+        "displayValue": "30"
+       },
+       {
+        "name": "overall",
+        "abbreviation": "Total",
+        "displayValue": "WWWLW"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "3",
+       "uid": "s:300~t:3",
+       "name": "Ireland",
+       "abbreviation": "IRE",
+       "displayName": "Ireland",
+       "shortDisplayName": "Ireland",
+       "isActive": true,
+       "isNational": true
+      },
+      "stats": [
+       {
+        "name": "OTLosses",
+        "abbreviation": "OTL",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "OTWins",
+        "abbreviation": "OTW",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "avgPointsAgainst",
+        "abbreviation": "OPP PPG",
+        "value": 21.6,
+        "displayValue": "21.6"
+       },
+       {
+        "name": "avgPointsFor",
+        "abbreviation": "PPG",
+        "value": 29.2,
+        "displayValue": "29.2"
+       },
+       {
+        "name": "differential",
+        "abbreviation": "DIFF",
+        "value": 7.599999999999998,
+        "displayValue": "+7.6"
+       },
+       {
+        "name": "divisionWinPercent",
+        "abbreviation": "DPCT",
+        "value": 0.0,
+        "displayValue": "0.000"
+       },
+       {
+        "name": "gamesBehind",
+        "abbreviation": "GB",
+        "value": 0.0,
+        "displayValue": "-"
+       },
+       {
+        "name": "gamesPlayed",
+        "abbreviation": "GP",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "leagueWinPercent",
+        "abbreviation": "LPCT",
+        "value": 0.0,
+        "displayValue": "0.000"
+       },
+       {
+        "name": "gamesLost",
+        "abbreviation": "L",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "playoffSeed",
+        "abbreviation": "SEED",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "pointsDifference",
+        "abbreviation": "PD",
+        "value": 38.0,
+        "displayValue": "+38"
+       },
+       {
+        "name": "points",
+        "abbreviation": "P",
+        "value": 19.0,
+        "displayValue": "19"
+       },
+       {
+        "name": "pointsAgainst",
+        "abbreviation": "A",
+        "value": 108.0,
+        "displayValue": "108"
+       },
+       {
+        "name": "pointsFor",
+        "abbreviation": "F",
+        "value": 146.0,
+        "displayValue": "146"
+       },
+       {
+        "name": "streak",
+        "abbreviation": "STRK",
+        "value": 0.0,
+        "displayValue": "-"
+       },
+       {
+        "name": "gamesDrawn",
+        "abbreviation": "D",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "winPercent",
+        "abbreviation": "PCT",
+        "value": 0.8,
+        "displayValue": ".800"
+       },
+       {
+        "name": "gamesWon",
+        "abbreviation": "W",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "bonusPoints",
+        "abbreviation": "BP",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "gamesBye",
+        "abbreviation": "Bye",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "bonusPointsLosing",
+        "abbreviation": "LBP",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "rank",
+        "abbreviation": "R",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "triesAgainst",
+        "abbreviation": "TA",
+        "value": 14.0,
+        "displayValue": "14"
+       },
+       {
+        "name": "bonusPointsTry",
+        "abbreviation": "TBP",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "triesDifference",
+        "abbreviation": "TD",
+        "value": 6.0,
+        "displayValue": "6"
+       },
+       {
+        "name": "triesFor",
+        "abbreviation": "TF",
+        "value": 20.0,
+        "displayValue": "20"
+       },
+       {
+        "name": "overall",
+        "abbreviation": "Total",
+        "displayValue": "WLWWW"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "2",
+       "uid": "s:300~t:2",
+       "name": "Scotland",
+       "abbreviation": "SCO",
+       "displayName": "Scotland",
+       "shortDisplayName": "Scotland",
+       "isActive": true,
+       "isNational": true
+      },
+      "stats": [
+       {
+        "name": "OTLosses",
+        "abbreviation": "OTL",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "OTWins",
+        "abbreviation": "OTW",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "avgPointsAgainst",
+        "abbreviation": "OPP PPG",
+        "value": 28.8,
+        "displayValue": "28.8"
+       },
+       {
+        "name": "avgPointsFor",
+        "abbreviation": "PPG",
+        "value": 28.6,
+        "displayValue": "28.6"
+       },
+       {
+        "name": "differential",
+        "abbreviation": "DIFF",
+        "value": -0.1999999999999993,
+        "displayValue": "-0.2"
+       },
+       {
+        "name": "divisionWinPercent",
+        "abbreviation": "DPCT",
+        "value": 0.0,
+        "displayValue": "0.000"
+       },
+       {
+        "name": "gamesBehind",
+        "abbreviation": "GB",
+        "value": 0.0,
+        "displayValue": "-"
+       },
+       {
+        "name": "gamesPlayed",
+        "abbreviation": "GP",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "leagueWinPercent",
+        "abbreviation": "LPCT",
+        "value": 0.0,
+        "displayValue": "0.000"
+       },
+       {
+        "name": "gamesLost",
+        "abbreviation": "L",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "playoffSeed",
+        "abbreviation": "SEED",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "pointsDifference",
+        "abbreviation": "PD",
+        "value": -1.0,
+        "displayValue": "-1"
+       },
+       {
+        "name": "points",
+        "abbreviation": "P",
+        "value": 16.0,
+        "displayValue": "16"
+       },
+       {
+        "name": "pointsAgainst",
+        "abbreviation": "A",
+        "value": 144.0,
+        "displayValue": "144"
+       },
+       {
+        "name": "pointsFor",
+        "abbreviation": "F",
+        "value": 143.0,
+        "displayValue": "143"
+       },
+       {
+        "name": "streak",
+        "abbreviation": "STRK",
+        "value": 0.0,
+        "displayValue": "-"
+       },
+       {
+        "name": "gamesDrawn",
+        "abbreviation": "D",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "winPercent",
+        "abbreviation": "PCT",
+        "value": 0.6,
+        "displayValue": ".600"
+       },
+       {
+        "name": "gamesWon",
+        "abbreviation": "W",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "bonusPoints",
+        "abbreviation": "BP",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "gamesBye",
+        "abbreviation": "Bye",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "bonusPointsLosing",
+        "abbreviation": "LBP",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "rank",
+        "abbreviation": "R",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "triesAgainst",
+        "abbreviation": "TA",
+        "value": 18.0,
+        "displayValue": "18"
+       },
+       {
+        "name": "bonusPointsTry",
+        "abbreviation": "TBP",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "triesDifference",
+        "abbreviation": "TD",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "triesFor",
+        "abbreviation": "TF",
+        "value": 20.0,
+        "displayValue": "20"
+       },
+       {
+        "name": "overall",
+        "abbreviation": "Total",
+        "displayValue": "LWLWL"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "20",
+       "uid": "s:300~t:20",
+       "name": "Italy",
+       "abbreviation": "ITA",
+       "displayName": "Italy",
+       "shortDisplayName": "Italy",
+       "isActive": true,
+       "isNational": true
+      },
+      "stats": [
+       {
+        "name": "OTLosses",
+        "abbreviation": "OTL",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "OTWins",
+        "abbreviation": "OTW",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "avgPointsAgainst",
+        "abbreviation": "OPP PPG",
+        "value": 23.4,
+        "displayValue": "23.4"
+       },
+       {
+        "name": "avgPointsFor",
+        "abbreviation": "PPG",
+        "value": 15.8,
+        "displayValue": "15.8"
+       },
+       {
+        "name": "differential",
+        "abbreviation": "DIFF",
+        "value": -7.599999999999998,
+        "displayValue": "-7.6"
+       },
+       {
+        "name": "divisionWinPercent",
+        "abbreviation": "DPCT",
+        "value": 0.0,
+        "displayValue": "0.000"
+       },
+       {
+        "name": "gamesBehind",
+        "abbreviation": "GB",
+        "value": 0.0,
+        "displayValue": "-"
+       },
+       {
+        "name": "gamesPlayed",
+        "abbreviation": "GP",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "leagueWinPercent",
+        "abbreviation": "LPCT",
+        "value": 0.0,
+        "displayValue": "0.000"
+       },
+       {
+        "name": "gamesLost",
+        "abbreviation": "L",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "playoffSeed",
+        "abbreviation": "SEED",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "pointsDifference",
+        "abbreviation": "PD",
+        "value": -38.0,
+        "displayValue": "-38"
+       },
+       {
+        "name": "points",
+        "abbreviation": "P",
+        "value": 9.0,
+        "displayValue": "9"
+       },
+       {
+        "name": "pointsAgainst",
+        "abbreviation": "A",
+        "value": 117.0,
+        "displayValue": "117"
+       },
+       {
+        "name": "pointsFor",
+        "abbreviation": "F",
+        "value": 79.0,
+        "displayValue": "79"
+       },
+       {
+        "name": "streak",
+        "abbreviation": "STRK",
+        "value": 0.0,
+        "displayValue": "-"
+       },
+       {
+        "name": "gamesDrawn",
+        "abbreviation": "D",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "winPercent",
+        "abbreviation": "PCT",
+        "value": 0.4,
+        "displayValue": ".400"
+       },
+       {
+        "name": "gamesWon",
+        "abbreviation": "W",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "bonusPoints",
+        "abbreviation": "BP",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "gamesBye",
+        "abbreviation": "Bye",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "bonusPointsLosing",
+        "abbreviation": "LBP",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "rank",
+        "abbreviation": "R",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "triesAgainst",
+        "abbreviation": "TA",
+        "value": 16.0,
+        "displayValue": "16"
+       },
+       {
+        "name": "bonusPointsTry",
+        "abbreviation": "TBP",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "triesDifference",
+        "abbreviation": "TD",
+        "value": -7.0,
+        "displayValue": "-7"
+       },
+       {
+        "name": "triesFor",
+        "abbreviation": "TF",
+        "value": 9.0,
+        "displayValue": "9"
+       },
+       {
+        "name": "overall",
+        "abbreviation": "Total",
+        "displayValue": "LLLLL"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "1",
+       "uid": "s:300~t:1",
+       "name": "England",
+       "abbreviation": "ENG",
+       "displayName": "England",
+       "shortDisplayName": "England",
+       "isActive": true,
+       "isNational": true
+      },
+      "stats": [
+       {
+        "name": "OTLosses",
+        "abbreviation": "OTL",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "OTWins",
+        "abbreviation": "OTW",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "avgPointsAgainst",
+        "abbreviation": "OPP PPG",
+        "value": 30.2,
+        "displayValue": "30.2"
+       },
+       {
+        "name": "avgPointsFor",
+        "abbreviation": "PPG",
+        "value": 30.6,
+        "displayValue": "30.6"
+       },
+       {
+        "name": "differential",
+        "abbreviation": "DIFF",
+        "value": 0.40000000000000213,
+        "displayValue": "+0.4"
+       },
+       {
+        "name": "divisionWinPercent",
+        "abbreviation": "DPCT",
+        "value": 0.0,
+        "displayValue": "0.000"
+       },
+       {
+        "name": "gamesBehind",
+        "abbreviation": "GB",
+        "value": 0.0,
+        "displayValue": "-"
+       },
+       {
+        "name": "gamesPlayed",
+        "abbreviation": "GP",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "leagueWinPercent",
+        "abbreviation": "LPCT",
+        "value": 0.0,
+        "displayValue": "0.000"
+       },
+       {
+        "name": "gamesLost",
+        "abbreviation": "L",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "playoffSeed",
+        "abbreviation": "SEED",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "pointsDifference",
+        "abbreviation": "PD",
+        "value": 2.0,
+        "displayValue": "+2"
+       },
+       {
+        "name": "points",
+        "abbreviation": "P",
+        "value": 8.0,
+        "displayValue": "8"
+       },
+       {
+        "name": "pointsAgainst",
+        "abbreviation": "A",
+        "value": 151.0,
+        "displayValue": "151"
+       },
+       {
+        "name": "pointsFor",
+        "abbreviation": "F",
+        "value": 153.0,
+        "displayValue": "153"
+       },
+       {
+        "name": "streak",
+        "abbreviation": "STRK",
+        "value": 0.0,
+        "displayValue": "-"
+       },
+       {
+        "name": "gamesDrawn",
+        "abbreviation": "D",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "winPercent",
+        "abbreviation": "PCT",
+        "value": 0.2,
+        "displayValue": ".200"
+       },
+       {
+        "name": "gamesWon",
+        "abbreviation": "W",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "bonusPoints",
+        "abbreviation": "BP",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "gamesBye",
+        "abbreviation": "Bye",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "bonusPointsLosing",
+        "abbreviation": "LBP",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "rank",
+        "abbreviation": "R",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "triesAgainst",
+        "abbreviation": "TA",
+        "value": 18.0,
+        "displayValue": "18"
+       },
+       {
+        "name": "bonusPointsTry",
+        "abbreviation": "TBP",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "triesDifference",
+        "abbreviation": "TD",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "triesFor",
+        "abbreviation": "TF",
+        "value": 21.0,
+        "displayValue": "21"
+       },
+       {
+        "name": "overall",
+        "abbreviation": "Total",
+        "displayValue": "WWWLL"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "4",
+       "uid": "s:300~t:4",
+       "name": "Wales",
+       "abbreviation": "WAL",
+       "displayName": "Wales",
+       "shortDisplayName": "Wales",
+       "isActive": true,
+       "isNational": true
+      },
+      "stats": [
+       {
+        "name": "OTLosses",
+        "abbreviation": "OTL",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "OTWins",
+        "abbreviation": "OTW",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "avgPointsAgainst",
+        "abbreviation": "OPP PPG",
+        "value": 34.4,
+        "displayValue": "34.4"
+       },
+       {
+        "name": "avgPointsFor",
+        "abbreviation": "PPG",
+        "value": 18.0,
+        "displayValue": "18.0"
+       },
+       {
+        "name": "differential",
+        "abbreviation": "DIFF",
+        "value": -16.4,
+        "displayValue": "-16.4"
+       },
+       {
+        "name": "divisionWinPercent",
+        "abbreviation": "DPCT",
+        "value": 0.0,
+        "displayValue": "0.000"
+       },
+       {
+        "name": "gamesBehind",
+        "abbreviation": "GB",
+        "value": 0.0,
+        "displayValue": "-"
+       },
+       {
+        "name": "gamesPlayed",
+        "abbreviation": "GP",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "leagueWinPercent",
+        "abbreviation": "LPCT",
+        "value": 0.0,
+        "displayValue": "0.000"
+       },
+       {
+        "name": "gamesLost",
+        "abbreviation": "L",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "playoffSeed",
+        "abbreviation": "SEED",
+        "value": 6.0,
+        "displayValue": "6"
+       },
+       {
+        "name": "pointsDifference",
+        "abbreviation": "PD",
+        "value": -82.0,
+        "displayValue": "-82"
+       },
+       {
+        "name": "points",
+        "abbreviation": "P",
+        "value": 6.0,
+        "displayValue": "6"
+       },
+       {
+        "name": "pointsAgainst",
+        "abbreviation": "A",
+        "value": 172.0,
+        "displayValue": "172"
+       },
+       {
+        "name": "pointsFor",
+        "abbreviation": "F",
+        "value": 90.0,
+        "displayValue": "90"
+       },
+       {
+        "name": "streak",
+        "abbreviation": "STRK",
+        "value": 0.0,
+        "displayValue": "-"
+       },
+       {
+        "name": "gamesDrawn",
+        "abbreviation": "D",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "winPercent",
+        "abbreviation": "PCT",
+        "value": 0.2,
+        "displayValue": ".200"
+       },
+       {
+        "name": "gamesWon",
+        "abbreviation": "W",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "bonusPoints",
+        "abbreviation": "BP",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "gamesBye",
+        "abbreviation": "Bye",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "bonusPointsLosing",
+        "abbreviation": "LBP",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "rank",
+        "abbreviation": "R",
+        "value": 6.0,
+        "displayValue": "6"
+       },
+       {
+        "name": "triesAgainst",
+        "abbreviation": "TA",
+        "value": 26.0,
+        "displayValue": "26"
+       },
+       {
+        "name": "bonusPointsTry",
+        "abbreviation": "TBP",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "triesDifference",
+        "abbreviation": "TD",
+        "value": -15.0,
+        "displayValue": "-15"
+       },
+       {
+        "name": "triesFor",
+        "abbreviation": "TF",
+        "value": 11.0,
+        "displayValue": "11"
+       },
+       {
+        "name": "overall",
+        "abbreviation": "Total",
+        "displayValue": "WLLWW"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "season": {
+  "year": 2026,
+  "startDate": "2026-01-31T05:00Z",
+  "endDate": "2026-03-17T03:59Z",
+  "displayName": "2026"
+ },
+ "seasons": [
+  {
+   "year": 2027,
+   "startDate": "2027-01-31T05:00Z",
+   "endDate": "2027-03-17T03:59Z",
+   "displayName": "2027",
+   "types": [
+    {
+     "id": "1",
+     "name": "2027 Six Nations",
+     "abbreviation": "2027 Six Nations",
+     "startDate": "2027-01-31T05:00Z",
+     "endDate": "2027-03-17T03:59Z",
+     "hasStandings": true
+    }
+   ],
+   "seasonYears": "2027"
+  },
+  {
+   "year": 2026,
+   "startDate": "2026-01-31T05:00Z",
+   "endDate": "2026-03-17T03:59Z",
+   "displayName": "2026",
+   "types": [
+    {
+     "id": "1",
+     "name": "2026 Six Nations",
+     "abbreviation": "2026 Six Nations",
+     "startDate": "2026-01-31T05:00Z",
+     "endDate": "2026-03-17T03:59Z",
+     "hasStandings": true
+    }
+   ],
+   "seasonYears": "2026"
+  },
+  {
+   "year": 2025,
+   "startDate": "2025-01-31T05:00Z",
+   "endDate": "2025-03-17T03:59Z",
+   "displayName": "2025",
+   "types": [
+    {
+     "id": "1",
+     "name": "2025 Six Nations",
+     "abbreviation": "2025 Six Nations",
+     "startDate": "2025-01-31T05:00Z",
+     "endDate": "2025-03-17T03:59Z",
+     "hasStandings": true
+    }
+   ],
+   "seasonYears": "2025"
+  }
+ ]
+}

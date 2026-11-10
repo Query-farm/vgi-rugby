@@ -1,0 +1,520 @@
+{
+ "pageInfo": {
+  "page": 0,
+  "numPages": 1,
+  "pageSize": 100,
+  "numEntries": 6
+ },
+ "content": [
+  {
+   "matchId": "486c6920-46ee-4205-ae94-f75554a2b35c",
+   "matchAltId": "486c6920-46ee-4205-ae94-f75554a2b35c",
+   "description": null,
+   "eventPhase": null,
+   "eventPhaseId": null,
+   "venue": {
+    "id": "1113",
+    "altId": "1b45617f-bae3-4a6e-9517-65c60d295708",
+    "name": "Stadio Rino Venegoni",
+    "city": "Parabiago",
+    "country": "Italy"
+   },
+   "time": {
+    "millis": 1793539800000,
+    "gmtOffset": 1.0,
+    "label": "2026-11-01"
+   },
+   "attendance": null,
+   "teams": [
+    {
+     "id": "3bcc49e4-196d-4532-a892-60e165146a0d",
+     "altId": "3bcc49e4-196d-4532-a892-60e165146a0d",
+     "name": "Rugby Parabiago 1948",
+     "abbreviation": null,
+     "countryCode": null,
+     "annotations": null,
+     "metadata": {}
+    },
+    {
+     "id": "1650",
+     "altId": "f62d592c-3406-4bda-adbe-d01152042bc0",
+     "name": "CUS Torino",
+     "abbreviation": null,
+     "countryCode": null,
+     "annotations": null,
+     "metadata": {}
+    }
+   ],
+   "scores": [
+    95,
+    6
+   ],
+   "kc": null,
+   "status": "C",
+   "clock": {
+    "secs": 0,
+    "label": "00:00"
+   },
+   "outcome": "A",
+   "events": [
+    {
+     "id": "872d2fcf-e72e-46af-ba81-9b7c68870401",
+     "altId": "872d2fcf-e72e-46af-ba81-9b7c68870401",
+     "label": "Coppa Italia 2027",
+     "sport": "mru",
+     "start": {
+      "millis": 1791590400000,
+      "gmtOffset": 0.0,
+      "label": "2026-10-10"
+     },
+     "end": {
+      "millis": 1811721600000,
+      "gmtOffset": 0.0,
+      "label": "2027-05-31"
+     },
+     "abbr": null,
+     "winningTeam": null,
+     "eventStatus": {
+      "eventStatusID": 1,
+      "eventStatusName": "Scheduled"
+     },
+     "seriesId": null,
+     "seriesAltId": null,
+     "rankingsWeight": 0.0,
+     "metadata": {},
+     "impactPlayers": null,
+     "teamPerformances": null
+    }
+   ],
+   "sport": "MRU",
+   "competition": "Coppa Italia 2027",
+   "weather": null,
+   "rankingsWeight": null
+  },
+  {
+   "matchId": "dabcb5f2-4b9a-42e8-8145-62beed3c6124",
+   "matchAltId": "dabcb5f2-4b9a-42e8-8145-62beed3c6124",
+   "description": "Match 45",
+   "eventPhase": "League",
+   "eventPhaseId": null,
+   "venue": {
+    "id": "af3c9c4b-5605-4e36-92ff-e0e4552e8c05",
+    "altId": "af3c9c4b-5605-4e36-92ff-e0e4552e8c05",
+    "name": "Paton Field",
+    "city": "Wirral",
+    "country": "England"
+   },
+   "time": {
+    "millis": 1794056400000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-07"
+   },
+   "attendance": null,
+   "teams": [
+    {
+     "id": "4762",
+     "altId": "a32054a8-1225-4c6a-8104-639b4f7854a8",
+     "name": "Caldy",
+     "abbreviation": null,
+     "countryCode": null,
+     "annotations": null,
+     "metadata": {}
+    },
+    {
+     "id": "100",
+     "altId": "c73cfaa7-78b3-4441-bf58-038c57756114",
+     "name": "Coventry",
+     "abbreviation": null,
+     "countryCode": null,
+     "annotations": null,
+     "metadata": {}
+    }
+   ],
+   "scores": [
+    15,
+    43
+   ],
+   "kc": null,
+   "status": "U",
+   "clock": {
+    "secs": 0,
+    "label": "00:00"
+   },
+   "outcome": "N",
+   "events": [
+    {
+     "id": "e45b2f9d-c83c-444a-b79b-66a9e3a04461",
+     "altId": "e45b2f9d-c83c-444a-b79b-66a9e3a04461",
+     "label": "English Championship 2027",
+     "sport": "mru",
+     "start": {
+      "millis": 1789689600000,
+      "gmtOffset": 1.0,
+      "label": "2026-09-18"
+     },
+     "end": {
+      "millis": 1811721600000,
+      "gmtOffset": 1.0,
+      "label": "2027-05-31"
+     },
+     "abbr": null,
+     "winningTeam": null,
+     "eventStatus": {
+      "eventStatusID": 1,
+      "eventStatusName": "Scheduled"
+     },
+     "seriesId": null,
+     "seriesAltId": null,
+     "rankingsWeight": 0.0,
+     "metadata": {},
+     "impactPlayers": null,
+     "teamPerformances": null
+    }
+   ],
+   "sport": "MRU",
+   "competition": "English Championship 2027",
+   "weather": null,
+   "rankingsWeight": null
+  },
+  {
+   "matchId": "ba43e86e-8b67-4542-91f9-280027fd357e",
+   "matchAltId": "ba43e86e-8b67-4542-91f9-280027fd357e",
+   "description": null,
+   "eventPhase": null,
+   "eventPhaseId": null,
+   "venue": {
+    "id": "743",
+    "altId": "0bd4f75b-b0f2-4a5a-97a5-7d048214ed8d",
+    "name": "Stadium Lokomotiv",
+    "city": "Sofia",
+    "country": "Bulgaria"
+   },
+   "time": {
+    "millis": 1794056400000,
+    "gmtOffset": 2.0,
+    "label": "2026-11-07"
+   },
+   "attendance": null,
+   "teams": [
+    {
+     "id": "98dd132a-7180-42c3-a7bd-fdf4baaf9d4f",
+     "altId": "98dd132a-7180-42c3-a7bd-fdf4baaf9d4f",
+     "name": "Bulgaria",
+     "abbreviation": "BUL",
+     "countryCode": null,
+     "annotations": null,
+     "metadata": {}
+    },
+    {
+     "id": "2969",
+     "altId": "5d6062bd-65d6-4138-9399-f7497c202158",
+     "name": "Norway",
+     "abbreviation": "NOR",
+     "countryCode": null,
+     "annotations": null,
+     "metadata": {}
+    }
+   ],
+   "scores": [
+    0,
+    67
+   ],
+   "kc": null,
+   "status": "C",
+   "clock": {
+    "secs": 0,
+    "label": "00:00"
+   },
+   "outcome": "B",
+   "events": [
+    {
+     "id": "90e114fd-aa34-446a-bfce-41be97568fc2",
+     "altId": "90e114fd-aa34-446a-bfce-41be97568fc2",
+     "label": "Rugby Europe Conference Women's 2027",
+     "sport": "wru",
+     "start": {
+      "millis": 1794009600000,
+      "gmtOffset": 0.0,
+      "label": "2026-11-07"
+     },
+     "end": {
+      "millis": 1816992000000,
+      "gmtOffset": 0.0,
+      "label": "2027-07-31"
+     },
+     "abbr": null,
+     "winningTeam": null,
+     "eventStatus": {
+      "eventStatusID": 1,
+      "eventStatusName": "Scheduled"
+     },
+     "seriesId": null,
+     "seriesAltId": null,
+     "rankingsWeight": 0.0,
+     "metadata": {},
+     "impactPlayers": null,
+     "teamPerformances": null
+    }
+   ],
+   "sport": "WRU",
+   "competition": "Rugby Europe Conference Women's 2027",
+   "weather": null,
+   "rankingsWeight": null
+  },
+  {
+   "matchId": "db7d80ff-3fa4-4b76-8b84-f615725dd62b",
+   "matchAltId": "db7d80ff-3fa4-4b76-8b84-f615725dd62b",
+   "description": null,
+   "eventPhase": null,
+   "eventPhaseId": null,
+   "venue": {
+    "id": "7",
+    "altId": "331f1bf0-92fd-4e94-b873-936024b730a4",
+    "name": "Murrayfield",
+    "city": "Edinburgh",
+    "country": "Scotland"
+   },
+   "time": {
+    "millis": 1794060600000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-07"
+   },
+   "attendance": null,
+   "teams": [
+    {
+     "id": "35",
+     "altId": "84c81e4f-f67a-4812-9800-df4c554de009",
+     "name": "Scotland",
+     "abbreviation": "SCO",
+     "countryCode": null,
+     "annotations": null,
+     "metadata": {}
+    },
+    {
+     "id": "37",
+     "altId": "ec6ede05-0367-4b75-a66d-2d7a58950dcd",
+     "name": "New Zealand",
+     "abbreviation": "NZL",
+     "countryCode": null,
+     "annotations": null,
+     "metadata": {}
+    }
+   ],
+   "scores": [
+    21,
+    43
+   ],
+   "kc": null,
+   "status": "C",
+   "clock": {
+    "secs": 0,
+    "label": "00:00"
+   },
+   "outcome": "B",
+   "events": [
+    {
+     "id": "46294cf5-dee3-4234-957a-dbe1f08049f2",
+     "altId": "46294cf5-dee3-4234-957a-dbe1f08049f2",
+     "label": "Nations Championship 2026",
+     "sport": "mru",
+     "start": {
+      "millis": 1783036800000,
+      "gmtOffset": 0.0,
+      "label": "2026-07-03"
+     },
+     "end": {
+      "millis": 1795910400000,
+      "gmtOffset": 0.0,
+      "label": "2026-11-29"
+     },
+     "abbr": null,
+     "winningTeam": null,
+     "eventStatus": {
+      "eventStatusID": 1,
+      "eventStatusName": "Scheduled"
+     },
+     "seriesId": null,
+     "seriesAltId": null,
+     "rankingsWeight": 0.0,
+     "metadata": {},
+     "impactPlayers": null,
+     "teamPerformances": null
+    }
+   ],
+   "sport": "MRU",
+   "competition": "Nations Championship 2026",
+   "weather": null,
+   "rankingsWeight": null
+  },
+  {
+   "matchId": "d21f7bed-f2f9-45bd-be33-3a0fc9beec42",
+   "matchAltId": "d21f7bed-f2f9-45bd-be33-3a0fc9beec42",
+   "description": null,
+   "eventPhase": null,
+   "eventPhaseId": null,
+   "venue": {
+    "id": "3",
+    "altId": "29e4b8a8-2de0-4311-b4c0-aed196480b73",
+    "name": "Allianz Stadium",
+    "city": "London",
+    "country": "England"
+   },
+   "time": {
+    "millis": 1794150600000,
+    "gmtOffset": 0.0,
+    "label": "2026-11-08"
+   },
+   "attendance": null,
+   "teams": [
+    {
+     "id": "34",
+     "altId": "b543a019-7df4-4ba0-b1e9-bc796d20df88",
+     "name": "England",
+     "abbreviation": "ENG",
+     "countryCode": null,
+     "annotations": null,
+     "metadata": {}
+    },
+    {
+     "id": "38",
+     "altId": "d655c863-3956-41fe-955d-02f7d2d00bc5",
+     "name": "Australia",
+     "abbreviation": "AUS",
+     "countryCode": null,
+     "annotations": null,
+     "metadata": {}
+    }
+   ],
+   "scores": [
+    45,
+    22
+   ],
+   "kc": null,
+   "status": "C",
+   "clock": {
+    "secs": 0,
+    "label": "00:00"
+   },
+   "outcome": "A",
+   "events": [
+    {
+     "id": "46294cf5-dee3-4234-957a-dbe1f08049f2",
+     "altId": "46294cf5-dee3-4234-957a-dbe1f08049f2",
+     "label": "Nations Championship 2026",
+     "sport": "mru",
+     "start": {
+      "millis": 1783036800000,
+      "gmtOffset": 0.0,
+      "label": "2026-07-03"
+     },
+     "end": {
+      "millis": 1795910400000,
+      "gmtOffset": 0.0,
+      "label": "2026-11-29"
+     },
+     "abbr": null,
+     "winningTeam": null,
+     "eventStatus": {
+      "eventStatusID": 1,
+      "eventStatusName": "Scheduled"
+     },
+     "seriesId": null,
+     "seriesAltId": null,
+     "rankingsWeight": 0.0,
+     "metadata": {},
+     "impactPlayers": null,
+     "teamPerformances": null
+    }
+   ],
+   "sport": "MRU",
+   "competition": "Nations Championship 2026",
+   "weather": null,
+   "rankingsWeight": null
+  },
+  {
+   "matchId": "fc5f654d-28c2-48bd-876b-fe8da54745ed",
+   "matchAltId": "fc5f654d-28c2-48bd-876b-fe8da54745ed",
+   "description": null,
+   "eventPhase": null,
+   "eventPhaseId": null,
+   "venue": {
+    "id": "1270",
+    "altId": "48e1ba4c-3463-464a-b564-6ba8b258e147",
+    "name": "Punjab Stadium",
+    "city": "Lahore",
+    "country": "Pakistan"
+   },
+   "time": {
+    "millis": 1794250800000,
+    "gmtOffset": 5.0,
+    "label": "2026-11-10"
+   },
+   "attendance": null,
+   "teams": [
+    {
+     "id": "2397",
+     "altId": "864dd82b-615a-4036-858c-229a03a8c795",
+     "name": "Pakistan",
+     "abbreviation": "PAK",
+     "countryCode": null,
+     "annotations": null,
+     "metadata": {}
+    },
+    {
+     "id": "2861",
+     "altId": "e5545a06-9fac-4777-8a38-b8858bc89aaf",
+     "name": "Uzbekistan",
+     "abbreviation": "UZB",
+     "countryCode": null,
+     "annotations": null,
+     "metadata": {}
+    }
+   ],
+   "scores": [
+    0,
+    0
+   ],
+   "kc": null,
+   "status": "U",
+   "clock": {
+    "secs": 0,
+    "label": "00:00"
+   },
+   "outcome": "N",
+   "events": [
+    {
+     "id": "ee2acc49-be5a-4a96-9850-98752f625fa8",
+     "altId": "ee2acc49-be5a-4a96-9850-98752f625fa8",
+     "label": "Men's Internationals 2026",
+     "sport": "mru",
+     "start": {
+      "millis": 1767225600000,
+      "gmtOffset": 0.0,
+      "label": "2026-01-01"
+     },
+     "end": {
+      "millis": 1798675200000,
+      "gmtOffset": 0.0,
+      "label": "2026-12-31"
+     },
+     "abbr": null,
+     "winningTeam": null,
+     "eventStatus": {
+      "eventStatusID": 1,
+      "eventStatusName": "Scheduled"
+     },
+     "seriesId": null,
+     "seriesAltId": null,
+     "rankingsWeight": 0.0,
+     "metadata": {},
+     "impactPlayers": null,
+     "teamPerformances": null
+    }
+   ],
+   "sport": "MRU",
+   "competition": "Men's Internationals 2026",
+   "weather": null,
+   "rankingsWeight": null
+  }
+ ]
+}

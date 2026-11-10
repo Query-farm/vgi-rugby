@@ -1,0 +1,113 @@
+# Agent-simulation tasks for `vgi-lint --ai` (VGI920). Every task grades through
+# check_sql: the data is live, so exact reference_sql comparisons cannot be
+# stable. Each check asserts the specific ground truth the prompt asks about and
+# exercises the objects an analyst should use to answer it.
+tasks:
+  - name: current_number_ones
+    check_sql: >-
+      SELECT count(DISTINCT gender) = 2 AND count(*) = 2 AS ok
+      FROM rugby.main.current_world_rankings
+      WHERE position = 1
+    success_criteria: >-
+      Uses current_world_rankings and names the position-1 team for both gender = 'men' and
+      gender = 'women'.
+
+  - name: six_nations_2026_table
+    check_sql: >-
+      SELECT
+        (SELECT count(*) = 6
+           AND max(table_points) FILTER (WHERE team_name = 'France') = 21
+           AND min(rank) FILTER (WHERE team_name = 'France') = 1
+           AND max(points_for) FILTER (WHERE team_name = 'France') = 211
+           AND sum(bonus_points) > 0
+         FROM rugby.main.standings(league := 'six_nations', season := 2026))
+        AND (SELECT sum(CASE WHEN home_team_name = 'France' THEN home_score ELSE away_score END) = 211
+             FROM rugby.main.results(league := 'six_nations', season := 2026)
+             WHERE 'France' IN (home_team_name, away_team_name)) AS ok
+    success_criteria: >-
+      Uses standings(league := 'six_nations', season := 2026) ordered by rank, with France top on
+      21 points and bonus points shown, and reports France's 211 points from points_for or by
+      summing results().
+
+  - name: ranking_history
+    check_sql: >-
+      SELECT team_name = 'South Africa' AND points BETWEEN 94 AND 95 AS ok
+      FROM rugby.main.world_rankings(as_of := DATE '2023-10-30')
+      WHERE position = 1
+    success_criteria: >-
+      Uses world_rankings with as_of 2023-10-30 and reports South Africa with about 94.5 points.
+
+  - name: england_australia_scoring
+    check_sql: >-
+      SELECT
+        (SELECT count(*) = 1 FROM rugby.main.matches(start_date := DATE '2026-11-08', end_date := DATE '2026-11-08')
+         WHERE match_id = 'd21f7bed-f2f9-45bd-be33-3a0fc9beec42'
+           AND home_team_name = 'England' AND away_team_name = 'Australia')
+        AND (SELECT max(home_score) = 45 AND max(away_score) = 22 AND count(*) FILTER (WHERE event_code = 'T5') > 0
+             FROM rugby.main.match_timeline('d21f7bed-f2f9-45bd-be33-3a0fc9beec42')) AS ok
+    success_criteria: >-
+      Finds the match_id with matches() for 8 November 2026, then lists match_timeline rows with
+      points > 0 in order, ending at England 45, Australia 22.
+
+  - name: ireland_scotland_tacklers
+    check_sql: >-
+      SELECT
+        (SELECT count(*) = 1 FROM rugby.main.scoreboard(league := 'six_nations', dates := '20260314')
+         WHERE event_id = 602514 AND home_team_name = 'Ireland')
+        AND (SELECT arg_max(player_name, tackles) = 'Josh van der Flier'
+             FROM rugby.main.match_player_stats('six_nations', 602514))
+        AND (SELECT bool_and(is_starter) FROM rugby.main.match_lineups('six_nations', 602514)
+             WHERE player_name = 'Josh van der Flier')
+        AND (SELECT value = 228 FROM rugby.main.match_team_stats('six_nations', 602514)
+             WHERE team_name = 'Ireland' AND stat = 'tackles') AS ok
+    success_criteria: >-
+      Finds event 602514 via results() or scoreboard(), names Josh van der Flier (23 tackles) from
+      match_player_stats, confirms he started (shirt 7) and reports Ireland's 228 team tackles.
+
+  - name: premiership_leader
+    check_sql: >-
+      SELECT count(*) = 1 AND bool_and(team_id IN (SELECT team_id FROM rugby.main.teams(league := 'premiership'))) AS ok
+      FROM rugby.main.current_standings
+      WHERE league = 'premiership' AND rank = 1
+    success_criteria: >-
+      Uses current_standings (or standings(league := 'premiership')) and names the rank-1 team.
+
+  - name: recent_matches
+    check_sql: >-
+      SELECT count(*) > 0
+        AND bool_and(local_date BETWEEN current_date - 8 AND current_date + 8)
+        AND count(DISTINCT match_id) = count(*) AS ok
+      FROM rugby.main.current_matches
+    success_criteria: >-
+      Uses current_matches (or matches() over the last seven days), filters is_complete, and
+      groups or lists the results by competition.
+
+  - name: autumn_test_results
+    check_sql: >-
+      SELECT count(*) = 6 AND bool_and(is_complete) AS ok
+      FROM rugby.main.matches(start_date := DATE '2026-11-01', end_date := DATE '2026-11-10')
+      WHERE competition = 'Nations Championship 2026'
+    success_criteria: >-
+      Uses matches() for 1-10 November 2026 filtered to the Nations Championship and lists the six
+      results with scores.
+
+  - name: world_cup_2027_fixtures
+    check_sql: >-
+      SELECT
+        (SELECT count(*) = 1 FROM rugby.main.competitions WHERE league = 'rugby_world_cup')
+        AND (SELECT count(*) >= 5 AND min(kickoff) >= TIMESTAMPTZ '2027-09-01 00:00:00+00'
+             FROM rugby.main.fixtures(league := 'rugby_world_cup', season := 2027)) AS ok
+    success_criteria: >-
+      Finds the rugby_world_cup key in competitions and uses fixtures(league := 'rugby_world_cup',
+      season := 2027) ordered by kickoff, limited to five.
+
+  - name: england_fly_half_and_tackles
+    check_sql: >-
+      SELECT
+        (SELECT player_name = 'Fin Smith' FROM rugby.main.match_squads('d21f7bed-f2f9-45bd-be33-3a0fc9beec42')
+         WHERE team_name = 'England' AND jersey_number = 10)
+        AND (SELECT value = 139 FROM rugby.main.match_stats('d21f7bed-f2f9-45bd-be33-3a0fc9beec42')
+             WHERE team_name = 'England' AND stat = 'tackles') AS ok
+    success_criteria: >-
+      Uses match_squads for England's number 10 (Fin Smith) and match_stats for England's tackle
+      count (139) in the 8 November 2026 test against Australia.

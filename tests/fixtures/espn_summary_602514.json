@@ -1,0 +1,2253 @@
+{
+ "boxscore": {
+  "teams": [
+   {
+    "team": {
+     "id": "3",
+     "uid": "s:300~t:3",
+     "slug": "ireland",
+     "name": "Ireland",
+     "abbreviation": "IRE",
+     "displayName": "Ireland",
+     "shortDisplayName": "Ireland",
+     "color": "009900"
+    },
+    "statistics": [
+     {
+      "name": "general",
+      "displayName": "General",
+      "shortDisplayName": "General",
+      "abbreviation": "gen",
+      "summary": "",
+      "stats": [
+       {
+        "name": "cleanBreaks",
+        "abbreviation": "CB",
+        "value": 6.0,
+        "displayValue": "6"
+       },
+       {
+        "name": "conversionGoals",
+        "abbreviation": "CG",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "defendersBeaten",
+        "abbreviation": "DB",
+        "value": 19.0,
+        "displayValue": "19"
+       },
+       {
+        "name": "kickPercentSuccess",
+        "abbreviation": "KPS",
+        "value": 0.86,
+        "displayValue": "0.860"
+       },
+       {
+        "name": "kicks",
+        "abbreviation": "K",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "kicksFromHand",
+        "abbreviation": "KFH",
+        "value": 22.0,
+        "displayValue": "22"
+       },
+       {
+        "name": "lineoutsWon",
+        "abbreviation": "LW",
+        "value": 10.0,
+        "displayValue": "10"
+       },
+       {
+        "name": "lineoutWonSteal",
+        "abbreviation": "LWS",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "maulsTotal",
+        "abbreviation": "MT",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "maulsWon",
+        "abbreviation": "MW",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "metres",
+        "abbreviation": "MR",
+        "value": 428.0,
+        "displayValue": "428"
+       },
+       {
+        "name": "missedTackles",
+        "abbreviation": "MT",
+        "value": 23.0,
+        "displayValue": "23"
+       },
+       {
+        "name": "offload",
+        "abbreviation": "O",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "passes",
+        "abbreviation": "P",
+        "value": 181.0,
+        "displayValue": "181"
+       },
+       {
+        "name": "pcPossessionFirst",
+        "abbreviation": "PPF",
+        "value": 0.5,
+        "displayValue": "0.500"
+       },
+       {
+        "name": "pcPossessionSecond",
+        "abbreviation": "PPS",
+        "value": 0.39,
+        "displayValue": "0.390"
+       },
+       {
+        "name": "pcTerritoryFirst",
+        "abbreviation": "PTF",
+        "value": 0.51,
+        "displayValue": "0.510"
+       },
+       {
+        "name": "pcTerritorySecond",
+        "abbreviation": "PTS",
+        "value": 0.47,
+        "displayValue": "0.470"
+       },
+       {
+        "name": "penaltiesConceded",
+        "abbreviation": "PC",
+        "value": 7.0,
+        "displayValue": "7"
+       },
+       {
+        "name": "penaltyGoals",
+        "abbreviation": "PG",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "possession",
+        "abbreviation": "P",
+        "value": 0.44,
+        "displayValue": "0.440"
+       },
+       {
+        "name": "redCards",
+        "abbreviation": "RC",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "rucksTotal",
+        "abbreviation": "RT",
+        "value": 109.0,
+        "displayValue": "109"
+       },
+       {
+        "name": "rucksWon",
+        "abbreviation": "RW",
+        "value": 108.0,
+        "displayValue": "108"
+       },
+       {
+        "name": "runs",
+        "abbreviation": "R",
+        "value": 123.0,
+        "displayValue": "123"
+       },
+       {
+        "name": "scrumsTotal",
+        "abbreviation": "ST",
+        "value": 7.0,
+        "displayValue": "7"
+       },
+       {
+        "name": "scrumsWon",
+        "abbreviation": "SW",
+        "value": 6.0,
+        "displayValue": "6"
+       },
+       {
+        "name": "tackles",
+        "abbreviation": "T",
+        "value": 228.0,
+        "displayValue": "228"
+       },
+       {
+        "name": "territory",
+        "abbreviation": "T",
+        "value": 0.49,
+        "displayValue": "0.490"
+       },
+       {
+        "name": "totalFreeKicksConceded",
+        "abbreviation": "TFKC",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "totalLineouts",
+        "abbreviation": "TL",
+        "value": 10.0,
+        "displayValue": "10"
+       },
+       {
+        "name": "tries",
+        "abbreviation": "T",
+        "value": 6.0,
+        "displayValue": "6"
+       },
+       {
+        "name": "turnoverKnockOn",
+        "abbreviation": "TKO",
+        "value": 9.0,
+        "displayValue": "9"
+       },
+       {
+        "name": "turnoversConceded",
+        "abbreviation": "TC",
+        "value": 12.0,
+        "displayValue": "12"
+       },
+       {
+        "name": "yellowCards",
+        "abbreviation": "YC",
+        "value": 0.0,
+        "displayValue": "0"
+       }
+      ]
+     }
+    ],
+    "displayOrder": 1,
+    "homeAway": "home"
+   },
+   {
+    "team": {
+     "id": "2",
+     "uid": "s:300~t:2",
+     "slug": "scotland",
+     "name": "Scotland",
+     "abbreviation": "SCO",
+     "displayName": "Scotland",
+     "shortDisplayName": "Scotland",
+     "color": "003366"
+    },
+    "statistics": [
+     {
+      "name": "general",
+      "displayName": "General",
+      "shortDisplayName": "General",
+      "abbreviation": "gen",
+      "summary": "",
+      "stats": [
+       {
+        "name": "cleanBreaks",
+        "abbreviation": "CB",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "conversionGoals",
+        "abbreviation": "CG",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "defendersBeaten",
+        "abbreviation": "DB",
+        "value": 23.0,
+        "displayValue": "23"
+       },
+       {
+        "name": "kickPercentSuccess",
+        "abbreviation": "KPS",
+        "value": 1.0,
+        "displayValue": "1.000"
+       },
+       {
+        "name": "kicks",
+        "abbreviation": "K",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "kicksFromHand",
+        "abbreviation": "KFH",
+        "value": 21.0,
+        "displayValue": "21"
+       },
+       {
+        "name": "lineoutsWon",
+        "abbreviation": "LW",
+        "value": 13.0,
+        "displayValue": "13"
+       },
+       {
+        "name": "lineoutWonSteal",
+        "abbreviation": "LWS",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "maulsTotal",
+        "abbreviation": "MT",
+        "value": 5.0,
+        "displayValue": "5"
+       },
+       {
+        "name": "maulsWon",
+        "abbreviation": "MW",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "metres",
+        "abbreviation": "MR",
+        "value": 291.0,
+        "displayValue": "291"
+       },
+       {
+        "name": "missedTackles",
+        "abbreviation": "MT",
+        "value": 19.0,
+        "displayValue": "19"
+       },
+       {
+        "name": "offload",
+        "abbreviation": "O",
+        "value": 10.0,
+        "displayValue": "10"
+       },
+       {
+        "name": "passes",
+        "abbreviation": "P",
+        "value": 203.0,
+        "displayValue": "203"
+       },
+       {
+        "name": "pcPossessionFirst",
+        "abbreviation": "PPF",
+        "value": 0.5,
+        "displayValue": "0.500"
+       },
+       {
+        "name": "pcPossessionSecond",
+        "abbreviation": "PPS",
+        "value": 0.61,
+        "displayValue": "0.610"
+       },
+       {
+        "name": "pcTerritoryFirst",
+        "abbreviation": "PTF",
+        "value": 0.49,
+        "displayValue": "0.490"
+       },
+       {
+        "name": "pcTerritorySecond",
+        "abbreviation": "PTS",
+        "value": 0.53,
+        "displayValue": "0.530"
+       },
+       {
+        "name": "penaltiesConceded",
+        "abbreviation": "PC",
+        "value": 7.0,
+        "displayValue": "7"
+       },
+       {
+        "name": "penaltyGoals",
+        "abbreviation": "PG",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "possession",
+        "abbreviation": "P",
+        "value": 0.56,
+        "displayValue": "0.560"
+       },
+       {
+        "name": "redCards",
+        "abbreviation": "RC",
+        "value": 0.0,
+        "displayValue": "0"
+       },
+       {
+        "name": "rucksTotal",
+        "abbreviation": "RT",
+        "value": 141.0,
+        "displayValue": "141"
+       },
+       {
+        "name": "rucksWon",
+        "abbreviation": "RW",
+        "value": 138.0,
+        "displayValue": "138"
+       },
+       {
+        "name": "runs",
+        "abbreviation": "R",
+        "value": 163.0,
+        "displayValue": "163"
+       },
+       {
+        "name": "scrumsTotal",
+        "abbreviation": "ST",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "scrumsWon",
+        "abbreviation": "SW",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "tackles",
+        "abbreviation": "T",
+        "value": 162.0,
+        "displayValue": "162"
+       },
+       {
+        "name": "territory",
+        "abbreviation": "T",
+        "value": 0.51,
+        "displayValue": "0.510"
+       },
+       {
+        "name": "totalFreeKicksConceded",
+        "abbreviation": "TFKC",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "totalLineouts",
+        "abbreviation": "TL",
+        "value": 14.0,
+        "displayValue": "14"
+       },
+       {
+        "name": "tries",
+        "abbreviation": "T",
+        "value": 3.0,
+        "displayValue": "3"
+       },
+       {
+        "name": "turnoverKnockOn",
+        "abbreviation": "TKO",
+        "value": 7.0,
+        "displayValue": "7"
+       },
+       {
+        "name": "turnoversConceded",
+        "abbreviation": "TC",
+        "value": 14.0,
+        "displayValue": "14"
+       },
+       {
+        "name": "yellowCards",
+        "abbreviation": "YC",
+        "value": 0.0,
+        "displayValue": "0"
+       }
+      ]
+     }
+    ],
+    "displayOrder": 2,
+    "homeAway": "away"
+   }
+  ]
+ },
+ "format": {
+  "regulation": {
+   "periods": 2,
+   "displayName": "Half",
+   "slug": "half",
+   "clock": 2400.0
+  }
+ },
+ "gameInfo": {
+  "venue": {
+   "id": "16102",
+   "guid": "1f6bbbae-dc4e-30b0-937a-c4ae137f540e",
+   "fullName": "Aviva Stadium",
+   "shortName": "Lansdowne Road",
+   "address": {
+    "city": "Dublin",
+    "state": "Ireland"
+   },
+   "grass": true
+  },
+  "attendance": 0
+ },
+ "hasOdds": true,
+ "rosters": [
+  {
+   "homeAway": "home",
+   "winner": true,
+   "team": {
+    "id": "3",
+    "abbreviation": "IRE",
+    "displayName": "Ireland",
+    "color": "009900"
+   },
+   "roster": [
+    {
+     "active": false,
+     "starter": false,
+     "jersey": "11",
+     "athlete": {
+      "id": "292594",
+      "uid": "s:300~a:292594",
+      "guid": "ea762d80-9239-30a9-a159-1efe99c02c04",
+      "lastName": "O'Brien",
+      "fullName": "Tommy O'Brien",
+      "displayName": "Tommy O'Brien",
+      "shortName": "T. O'Brien"
+     },
+     "position": {
+      "name": "wing",
+      "displayName": "wing",
+      "abbreviation": "W"
+     },
+     "captain": false,
+     "subbedIn": false,
+     "subbedOut": false,
+     "media": {},
+     "stats": [
+      {
+       "name": "cleanBreaks",
+       "abbreviation": "CB",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "conversionGoals",
+       "abbreviation": "CG",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "defendersBeaten",
+       "abbreviation": "DB",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "dropGoalsConverted",
+       "abbreviation": "DGC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "kickPercentSuccess",
+       "abbreviation": "KPS",
+       "value": 0.0,
+       "displayValue": "0.000"
+      },
+      {
+       "name": "kicksFromHand",
+       "abbreviation": "KFH",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "lineoutsWon",
+       "abbreviation": "LW",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "maulsWon",
+       "abbreviation": "MW",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "metres",
+       "abbreviation": "MR",
+       "value": 76.0,
+       "displayValue": "76"
+      },
+      {
+       "name": "missedTackles",
+       "abbreviation": "MT",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "offload",
+       "abbreviation": "O",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "passes",
+       "abbreviation": "P",
+       "value": 4.0,
+       "displayValue": "4"
+      },
+      {
+       "name": "penaltiesConceded",
+       "abbreviation": "PC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "penaltyGoals",
+       "abbreviation": "PG",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "points",
+       "abbreviation": "PTS",
+       "value": 10.0,
+       "displayValue": "10"
+      },
+      {
+       "name": "redCards",
+       "abbreviation": "RC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "rucksWon",
+       "abbreviation": "RW",
+       "value": 6.0,
+       "displayValue": "6"
+      },
+      {
+       "name": "runs",
+       "abbreviation": "R",
+       "value": 9.0,
+       "displayValue": "9"
+      },
+      {
+       "name": "tackles",
+       "abbreviation": "T",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "totalFreeKicksConceded",
+       "abbreviation": "TFKC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalLineouts",
+       "abbreviation": "TL",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "tries",
+       "abbreviation": "T",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "tryAssists",
+       "abbreviation": "TA",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "turnoverKnockOn",
+       "abbreviation": "TKO",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "turnoversConceded",
+       "abbreviation": "TC",
+       "value": 3.0,
+       "displayValue": "3"
+      },
+      {
+       "name": "yellowCards",
+       "abbreviation": "YC",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": false,
+     "starter": false,
+     "jersey": "10",
+     "athlete": {
+      "id": "298855",
+      "uid": "s:300~a:298855",
+      "guid": "9244f40b-e427-3f8d-a79e-192a97db1831",
+      "lastName": "Crowley",
+      "fullName": "Jack Crowley",
+      "displayName": "Jack Crowley",
+      "shortName": "J. Crowley"
+     },
+     "position": {
+      "name": "fly-half",
+      "displayName": "fly-half",
+      "abbreviation": "FH"
+     },
+     "captain": false,
+     "subbedIn": false,
+     "subbedOut": false,
+     "media": {},
+     "stats": [
+      {
+       "name": "cleanBreaks",
+       "abbreviation": "CB",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "conversionGoals",
+       "abbreviation": "CG",
+       "value": 5.0,
+       "displayValue": "5"
+      },
+      {
+       "name": "defendersBeaten",
+       "abbreviation": "DB",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "dropGoalsConverted",
+       "abbreviation": "DGC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "kickPercentSuccess",
+       "abbreviation": "KPS",
+       "value": 0.86,
+       "displayValue": "0.860"
+      },
+      {
+       "name": "kicksFromHand",
+       "abbreviation": "KFH",
+       "value": 5.0,
+       "displayValue": "5"
+      },
+      {
+       "name": "lineoutsWon",
+       "abbreviation": "LW",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "maulsWon",
+       "abbreviation": "MW",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "metres",
+       "abbreviation": "MR",
+       "value": 23.0,
+       "displayValue": "23"
+      },
+      {
+       "name": "missedTackles",
+       "abbreviation": "MT",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "offload",
+       "abbreviation": "O",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "passes",
+       "abbreviation": "P",
+       "value": 32.0,
+       "displayValue": "32"
+      },
+      {
+       "name": "penaltiesConceded",
+       "abbreviation": "PC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "penaltyGoals",
+       "abbreviation": "PG",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "points",
+       "abbreviation": "PTS",
+       "value": 13.0,
+       "displayValue": "13"
+      },
+      {
+       "name": "redCards",
+       "abbreviation": "RC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "rucksWon",
+       "abbreviation": "RW",
+       "value": 3.0,
+       "displayValue": "3"
+      },
+      {
+       "name": "runs",
+       "abbreviation": "R",
+       "value": 4.0,
+       "displayValue": "4"
+      },
+      {
+       "name": "tackles",
+       "abbreviation": "T",
+       "value": 11.0,
+       "displayValue": "11"
+      },
+      {
+       "name": "totalFreeKicksConceded",
+       "abbreviation": "TFKC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalLineouts",
+       "abbreviation": "TL",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "tries",
+       "abbreviation": "T",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "tryAssists",
+       "abbreviation": "TA",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "turnoverKnockOn",
+       "abbreviation": "TKO",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "turnoversConceded",
+       "abbreviation": "TC",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "yellowCards",
+       "abbreviation": "YC",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": false,
+     "starter": false,
+     "jersey": "7",
+     "athlete": {
+      "id": "165575",
+      "uid": "s:300~a:165575",
+      "guid": "8a4642df-b94c-37a1-8c5b-f2a167ba55cc",
+      "lastName": "van der Flier",
+      "fullName": "Josh van der Flier",
+      "displayName": "Josh van der Flier",
+      "shortName": "J. van der Flier"
+     },
+     "position": {
+      "name": "flanker",
+      "displayName": "Flanker",
+      "abbreviation": "FL"
+     },
+     "captain": false,
+     "subbedIn": false,
+     "subbedOut": false,
+     "media": {},
+     "stats": [
+      {
+       "name": "cleanBreaks",
+       "abbreviation": "CB",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "conversionGoals",
+       "abbreviation": "CG",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "defendersBeaten",
+       "abbreviation": "DB",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "dropGoalsConverted",
+       "abbreviation": "DGC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "kickPercentSuccess",
+       "abbreviation": "KPS",
+       "value": 0.0,
+       "displayValue": "0.000"
+      },
+      {
+       "name": "kicksFromHand",
+       "abbreviation": "KFH",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "lineoutsWon",
+       "abbreviation": "LW",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "maulsWon",
+       "abbreviation": "MW",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "metres",
+       "abbreviation": "MR",
+       "value": 4.0,
+       "displayValue": "4"
+      },
+      {
+       "name": "missedTackles",
+       "abbreviation": "MT",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offload",
+       "abbreviation": "O",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "passes",
+       "abbreviation": "P",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "penaltiesConceded",
+       "abbreviation": "PC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "penaltyGoals",
+       "abbreviation": "PG",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "points",
+       "abbreviation": "PTS",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "abbreviation": "RC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "rucksWon",
+       "abbreviation": "RW",
+       "value": 4.0,
+       "displayValue": "4"
+      },
+      {
+       "name": "runs",
+       "abbreviation": "R",
+       "value": 5.0,
+       "displayValue": "5"
+      },
+      {
+       "name": "tackles",
+       "abbreviation": "T",
+       "value": 23.0,
+       "displayValue": "23"
+      },
+      {
+       "name": "totalFreeKicksConceded",
+       "abbreviation": "TFKC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalLineouts",
+       "abbreviation": "TL",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "tries",
+       "abbreviation": "T",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "tryAssists",
+       "abbreviation": "TA",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "turnoverKnockOn",
+       "abbreviation": "TKO",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "turnoversConceded",
+       "abbreviation": "TC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "abbreviation": "YC",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": false,
+     "starter": false,
+     "jersey": "16",
+     "athlete": {
+      "id": "292591",
+      "uid": "s:300~a:292591",
+      "guid": "ee2ef9cd-606a-3329-aebf-a58339a095d3",
+      "lastName": "Kelleher",
+      "fullName": "Ronan Kelleher",
+      "displayName": "Ronan Kelleher",
+      "shortName": "R. Kelleher"
+     },
+     "position": {
+      "name": "replacement",
+      "displayName": "replacement",
+      "abbreviation": "R"
+     },
+     "captain": false,
+     "subbedIn": false,
+     "subbedOut": false,
+     "media": {},
+     "stats": [
+      {
+       "name": "cleanBreaks",
+       "abbreviation": "CB",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "conversionGoals",
+       "abbreviation": "CG",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "defendersBeaten",
+       "abbreviation": "DB",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "dropGoalsConverted",
+       "abbreviation": "DGC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "kickPercentSuccess",
+       "abbreviation": "KPS",
+       "value": 0.0,
+       "displayValue": "0.000"
+      },
+      {
+       "name": "kicksFromHand",
+       "abbreviation": "KFH",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "lineoutsWon",
+       "abbreviation": "LW",
+       "value": 3.0,
+       "displayValue": "3"
+      },
+      {
+       "name": "maulsWon",
+       "abbreviation": "MW",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "metres",
+       "abbreviation": "MR",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "missedTackles",
+       "abbreviation": "MT",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "offload",
+       "abbreviation": "O",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "passes",
+       "abbreviation": "P",
+       "value": 3.0,
+       "displayValue": "3"
+      },
+      {
+       "name": "penaltiesConceded",
+       "abbreviation": "PC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "penaltyGoals",
+       "abbreviation": "PG",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "points",
+       "abbreviation": "PTS",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "abbreviation": "RC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "rucksWon",
+       "abbreviation": "RW",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "runs",
+       "abbreviation": "R",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "tackles",
+       "abbreviation": "T",
+       "value": 6.0,
+       "displayValue": "6"
+      },
+      {
+       "name": "totalFreeKicksConceded",
+       "abbreviation": "TFKC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalLineouts",
+       "abbreviation": "TL",
+       "value": 3.0,
+       "displayValue": "3"
+      },
+      {
+       "name": "tries",
+       "abbreviation": "T",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "tryAssists",
+       "abbreviation": "TA",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "turnoverKnockOn",
+       "abbreviation": "TKO",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "turnoversConceded",
+       "abbreviation": "TC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "abbreviation": "YC",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "homeAway": "away",
+   "winner": false,
+   "team": {
+    "id": "2",
+    "abbreviation": "SCO",
+    "displayName": "Scotland",
+    "color": "003366"
+   },
+   "roster": [
+    {
+     "active": false,
+     "starter": false,
+     "jersey": "11",
+     "athlete": {
+      "id": "295937",
+      "uid": "s:300~a:295937",
+      "guid": "6d1d4c74-713a-3bed-a9ff-adf073eefc6b",
+      "lastName": "Steyn",
+      "fullName": "Kyle Steyn",
+      "displayName": "Kyle Steyn",
+      "shortName": "K. Steyn"
+     },
+     "position": {
+      "name": "wing",
+      "displayName": "wing",
+      "abbreviation": "W"
+     },
+     "captain": false,
+     "subbedIn": false,
+     "subbedOut": false,
+     "media": {},
+     "stats": [
+      {
+       "name": "cleanBreaks",
+       "abbreviation": "CB",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "conversionGoals",
+       "abbreviation": "CG",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "defendersBeaten",
+       "abbreviation": "DB",
+       "value": 5.0,
+       "displayValue": "5"
+      },
+      {
+       "name": "dropGoalsConverted",
+       "abbreviation": "DGC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "kickPercentSuccess",
+       "abbreviation": "KPS",
+       "value": 0.0,
+       "displayValue": "0.000"
+      },
+      {
+       "name": "kicksFromHand",
+       "abbreviation": "KFH",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "lineoutsWon",
+       "abbreviation": "LW",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "maulsWon",
+       "abbreviation": "MW",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "metres",
+       "abbreviation": "MR",
+       "value": 46.0,
+       "displayValue": "46"
+      },
+      {
+       "name": "missedTackles",
+       "abbreviation": "MT",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "offload",
+       "abbreviation": "O",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "passes",
+       "abbreviation": "P",
+       "value": 5.0,
+       "displayValue": "5"
+      },
+      {
+       "name": "penaltiesConceded",
+       "abbreviation": "PC",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "penaltyGoals",
+       "abbreviation": "PG",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "points",
+       "abbreviation": "PTS",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "abbreviation": "RC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "rucksWon",
+       "abbreviation": "RW",
+       "value": 6.0,
+       "displayValue": "6"
+      },
+      {
+       "name": "runs",
+       "abbreviation": "R",
+       "value": 7.0,
+       "displayValue": "7"
+      },
+      {
+       "name": "tackles",
+       "abbreviation": "T",
+       "value": 5.0,
+       "displayValue": "5"
+      },
+      {
+       "name": "totalFreeKicksConceded",
+       "abbreviation": "TFKC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalLineouts",
+       "abbreviation": "TL",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "tries",
+       "abbreviation": "T",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "tryAssists",
+       "abbreviation": "TA",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "turnoverKnockOn",
+       "abbreviation": "TKO",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "turnoversConceded",
+       "abbreviation": "TC",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "yellowCards",
+       "abbreviation": "YC",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": false,
+     "starter": false,
+     "jersey": "10",
+     "athlete": {
+      "id": "158721",
+      "uid": "s:300~a:158721",
+      "guid": "0a9c32e0-fb9b-3584-9acc-1936d7a9ad08",
+      "lastName": "Russell",
+      "fullName": "Finn Russell",
+      "displayName": "Finn Russell",
+      "shortName": "F. Russell"
+     },
+     "position": {
+      "name": "fly-half",
+      "displayName": "fly-half",
+      "abbreviation": "FH"
+     },
+     "captain": false,
+     "subbedIn": false,
+     "subbedOut": false,
+     "media": {},
+     "stats": [
+      {
+       "name": "cleanBreaks",
+       "abbreviation": "CB",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "conversionGoals",
+       "abbreviation": "CG",
+       "value": 3.0,
+       "displayValue": "3"
+      },
+      {
+       "name": "defendersBeaten",
+       "abbreviation": "DB",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "dropGoalsConverted",
+       "abbreviation": "DGC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "kickPercentSuccess",
+       "abbreviation": "KPS",
+       "value": 1.0,
+       "displayValue": "1.000"
+      },
+      {
+       "name": "kicksFromHand",
+       "abbreviation": "KFH",
+       "value": 5.0,
+       "displayValue": "5"
+      },
+      {
+       "name": "lineoutsWon",
+       "abbreviation": "LW",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "maulsWon",
+       "abbreviation": "MW",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "metres",
+       "abbreviation": "MR",
+       "value": 21.0,
+       "displayValue": "21"
+      },
+      {
+       "name": "missedTackles",
+       "abbreviation": "MT",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "offload",
+       "abbreviation": "O",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "passes",
+       "abbreviation": "P",
+       "value": 30.0,
+       "displayValue": "30"
+      },
+      {
+       "name": "penaltiesConceded",
+       "abbreviation": "PC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "penaltyGoals",
+       "abbreviation": "PG",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "points",
+       "abbreviation": "PTS",
+       "value": 11.0,
+       "displayValue": "11"
+      },
+      {
+       "name": "redCards",
+       "abbreviation": "RC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "rucksWon",
+       "abbreviation": "RW",
+       "value": 3.0,
+       "displayValue": "3"
+      },
+      {
+       "name": "runs",
+       "abbreviation": "R",
+       "value": 10.0,
+       "displayValue": "10"
+      },
+      {
+       "name": "tackles",
+       "abbreviation": "T",
+       "value": 12.0,
+       "displayValue": "12"
+      },
+      {
+       "name": "totalFreeKicksConceded",
+       "abbreviation": "TFKC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalLineouts",
+       "abbreviation": "TL",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "tries",
+       "abbreviation": "T",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "tryAssists",
+       "abbreviation": "TA",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "turnoverKnockOn",
+       "abbreviation": "TKO",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "turnoversConceded",
+       "abbreviation": "TC",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "yellowCards",
+       "abbreviation": "YC",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": false,
+     "starter": false,
+     "jersey": "7",
+     "athlete": {
+      "id": "298786",
+      "uid": "s:300~a:298786",
+      "guid": "f35e1b31-30ac-3528-b5b7-1f2ae229ccc5",
+      "lastName": "Darge",
+      "fullName": "Rory Darge",
+      "displayName": "Rory Darge",
+      "shortName": "R. Darge"
+     },
+     "position": {
+      "name": "flanker",
+      "displayName": "Flanker",
+      "abbreviation": "FL"
+     },
+     "captain": false,
+     "subbedIn": false,
+     "subbedOut": false,
+     "media": {},
+     "stats": [
+      {
+       "name": "cleanBreaks",
+       "abbreviation": "CB",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "conversionGoals",
+       "abbreviation": "CG",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "defendersBeaten",
+       "abbreviation": "DB",
+       "value": 4.0,
+       "displayValue": "4"
+      },
+      {
+       "name": "dropGoalsConverted",
+       "abbreviation": "DGC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "kickPercentSuccess",
+       "abbreviation": "KPS",
+       "value": 0.0,
+       "displayValue": "0.000"
+      },
+      {
+       "name": "kicksFromHand",
+       "abbreviation": "KFH",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "lineoutsWon",
+       "abbreviation": "LW",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "maulsWon",
+       "abbreviation": "MW",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "metres",
+       "abbreviation": "MR",
+       "value": 38.0,
+       "displayValue": "38"
+      },
+      {
+       "name": "missedTackles",
+       "abbreviation": "MT",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "offload",
+       "abbreviation": "O",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "passes",
+       "abbreviation": "P",
+       "value": 3.0,
+       "displayValue": "3"
+      },
+      {
+       "name": "penaltiesConceded",
+       "abbreviation": "PC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "penaltyGoals",
+       "abbreviation": "PG",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "points",
+       "abbreviation": "PTS",
+       "value": 5.0,
+       "displayValue": "5"
+      },
+      {
+       "name": "redCards",
+       "abbreviation": "RC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "rucksWon",
+       "abbreviation": "RW",
+       "value": 12.0,
+       "displayValue": "12"
+      },
+      {
+       "name": "runs",
+       "abbreviation": "R",
+       "value": 14.0,
+       "displayValue": "14"
+      },
+      {
+       "name": "tackles",
+       "abbreviation": "T",
+       "value": 16.0,
+       "displayValue": "16"
+      },
+      {
+       "name": "totalFreeKicksConceded",
+       "abbreviation": "TFKC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalLineouts",
+       "abbreviation": "TL",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "tries",
+       "abbreviation": "T",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "tryAssists",
+       "abbreviation": "TA",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "turnoverKnockOn",
+       "abbreviation": "TKO",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "turnoversConceded",
+       "abbreviation": "TC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "abbreviation": "YC",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    },
+    {
+     "active": false,
+     "starter": false,
+     "jersey": "16",
+     "athlete": {
+      "id": "294809",
+      "uid": "s:300~a:294809",
+      "guid": "b3e26f3c-8936-3b54-a809-e447e6b40b16",
+      "lastName": "Ashman",
+      "fullName": "Ewan Ashman",
+      "displayName": "Ewan Ashman",
+      "shortName": "E. Ashman"
+     },
+     "position": {
+      "name": "replacement",
+      "displayName": "replacement",
+      "abbreviation": "R"
+     },
+     "captain": false,
+     "subbedIn": false,
+     "subbedOut": false,
+     "media": {},
+     "stats": [
+      {
+       "name": "cleanBreaks",
+       "abbreviation": "CB",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "conversionGoals",
+       "abbreviation": "CG",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "defendersBeaten",
+       "abbreviation": "DB",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "dropGoalsConverted",
+       "abbreviation": "DGC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "kickPercentSuccess",
+       "abbreviation": "KPS",
+       "value": 0.0,
+       "displayValue": "0.000"
+      },
+      {
+       "name": "kicksFromHand",
+       "abbreviation": "KFH",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "lineoutsWon",
+       "abbreviation": "LW",
+       "value": 9.0,
+       "displayValue": "9"
+      },
+      {
+       "name": "maulsWon",
+       "abbreviation": "MW",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "metres",
+       "abbreviation": "MR",
+       "value": 20.0,
+       "displayValue": "20"
+      },
+      {
+       "name": "missedTackles",
+       "abbreviation": "MT",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "offload",
+       "abbreviation": "O",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "passes",
+       "abbreviation": "P",
+       "value": 2.0,
+       "displayValue": "2"
+      },
+      {
+       "name": "penaltiesConceded",
+       "abbreviation": "PC",
+       "value": 1.0,
+       "displayValue": "1"
+      },
+      {
+       "name": "penaltyGoals",
+       "abbreviation": "PG",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "points",
+       "abbreviation": "PTS",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "redCards",
+       "abbreviation": "RC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "rucksWon",
+       "abbreviation": "RW",
+       "value": 12.0,
+       "displayValue": "12"
+      },
+      {
+       "name": "runs",
+       "abbreviation": "R",
+       "value": 13.0,
+       "displayValue": "13"
+      },
+      {
+       "name": "tackles",
+       "abbreviation": "T",
+       "value": 9.0,
+       "displayValue": "9"
+      },
+      {
+       "name": "totalFreeKicksConceded",
+       "abbreviation": "TFKC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "totalLineouts",
+       "abbreviation": "TL",
+       "value": 10.0,
+       "displayValue": "10"
+      },
+      {
+       "name": "tries",
+       "abbreviation": "T",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "tryAssists",
+       "abbreviation": "TA",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "turnoverKnockOn",
+       "abbreviation": "TKO",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "turnoversConceded",
+       "abbreviation": "TC",
+       "value": 0.0,
+       "displayValue": "0"
+      },
+      {
+       "name": "yellowCards",
+       "abbreviation": "YC",
+       "value": 0.0,
+       "displayValue": "0"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "header": {
+  "id": "602514",
+  "uid": "s:300~l:8323~e:602514",
+  "season": {
+   "year": 2026,
+   "current": true,
+   "type": 1
+  },
+  "timeValid": true,
+  "competitions": [
+   {
+    "id": "602514",
+    "uid": "s:300~l:8323~e:602514~c:602514",
+    "date": "2026-03-14T14:10Z",
+    "neutralSite": false,
+    "conferenceCompetition": false,
+    "boxscoreAvailable": true,
+    "commentaryAvailable": false,
+    "liveAvailable": false,
+    "onWatchESPN": false,
+    "recent": false,
+    "wallclockAvailable": false,
+    "boxscoreSource": "full",
+    "playByPlaySource": "full",
+    "competitors": [
+     {
+      "id": "3",
+      "uid": "s:300~l:8323~t:3",
+      "order": 0,
+      "homeAway": "home",
+      "winner": true,
+      "team": {
+       "id": "3",
+       "guid": "7023429b-7933-3a8f-b808-61b842f93c78",
+       "uid": "s:300~t:3",
+       "name": "Ireland",
+       "abbreviation": "IRE",
+       "displayName": "Ireland",
+       "shortDisplayName": "Ireland",
+       "color": "009900"
+      },
+      "score": "43",
+      "linescores": [
+       {
+        "displayValue": "19"
+       },
+       {
+        "displayValue": "43"
+       },
+       {
+        "displayValue": "0"
+       },
+       {
+        "displayValue": "0"
+       }
+      ],
+      "record": [
+       {
+        "type": "total",
+        "summary": "WLWWW",
+        "displayValue": "WLWWW"
+       }
+      ],
+      "possession": false,
+      "form": "WLWWW"
+     },
+     {
+      "id": "2",
+      "uid": "s:300~l:8323~t:2",
+      "order": 1,
+      "homeAway": "away",
+      "winner": false,
+      "team": {
+       "id": "2",
+       "guid": "89922c47-0f0c-3e4c-98f6-c32b8c1ea9eb",
+       "uid": "s:300~t:2",
+       "name": "Scotland",
+       "abbreviation": "SCO",
+       "displayName": "Scotland",
+       "shortDisplayName": "Scotland",
+       "color": "003366"
+      },
+      "score": "21",
+      "linescores": [
+       {
+        "displayValue": "7"
+       },
+       {
+        "displayValue": "21"
+       },
+       {
+        "displayValue": "0"
+       },
+       {
+        "displayValue": "0"
+       }
+      ],
+      "record": [
+       {
+        "type": "total",
+        "summary": "LWLWL",
+        "displayValue": "LWLWL"
+       }
+      ],
+      "possession": false,
+      "form": "LWLWL"
+     }
+    ],
+    "status": {
+     "type": {
+      "id": "3",
+      "name": "STATUS_FINAL",
+      "state": "post",
+      "completed": true,
+      "description": "FT",
+      "detail": "FT",
+      "shortDetail": "FT"
+     }
+    },
+    "details": [
+     {
+      "sequenceNumber": "0",
+      "type": {
+       "id": "1",
+       "text": "try"
+      },
+      "awayScore": 0,
+      "homeScore": 5,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "value": 174.0,
+       "displayValue": "3'"
+      },
+      "team": {
+       "id": "3",
+       "uid": "s:300~t:3",
+       "name": "Ireland",
+       "abbreviation": "IRE",
+       "displayName": "Ireland"
+      },
+      "participants": [
+       {
+        "athlete": {
+         "id": "299102",
+         "displayName": "Jamie Osborne"
+        }
+       }
+      ],
+      "addedClock": {
+       "value": 0.0,
+       "displayValue": "3'"
+      }
+     },
+     {
+      "sequenceNumber": "0",
+      "type": {
+       "id": "2",
+       "text": "conversion"
+      },
+      "awayScore": 0,
+      "homeScore": 7,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "value": 216.0,
+       "displayValue": "4'"
+      },
+      "team": {
+       "id": "3",
+       "uid": "s:300~t:3",
+       "name": "Ireland",
+       "abbreviation": "IRE",
+       "displayName": "Ireland"
+      },
+      "participants": [
+       {
+        "athlete": {
+         "id": "298855",
+         "displayName": "Jack Crowley"
+        }
+       }
+      ],
+      "addedClock": {
+       "value": 0.0,
+       "displayValue": "4'"
+      }
+     },
+     {
+      "sequenceNumber": "0",
+      "type": {
+       "id": "1",
+       "text": "try"
+      },
+      "awayScore": 5,
+      "homeScore": 7,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "value": 410.0,
+       "displayValue": "7'"
+      },
+      "team": {
+       "id": "2",
+       "uid": "s:300~t:2",
+       "name": "Scotland",
+       "abbreviation": "SCO",
+       "displayName": "Scotland"
+      },
+      "participants": [
+       {
+        "athlete": {
+         "id": "285607",
+         "displayName": "Darcy Graham"
+        }
+       }
+      ],
+      "addedClock": {
+       "value": 0.0,
+       "displayValue": "7'"
+      }
+     },
+     {
+      "sequenceNumber": "0",
+      "type": {
+       "id": "2",
+       "text": "conversion"
+      },
+      "awayScore": 7,
+      "homeScore": 7,
+      "period": {
+       "number": 1
+      },
+      "clock": {
+       "value": 465.0,
+       "displayValue": "8'"
+      },
+      "team": {
+       "id": "2",
+       "uid": "s:300~t:2",
+       "name": "Scotland",
+       "abbreviation": "SCO",
+       "displayName": "Scotland"
+      },
+      "participants": [
+       {
+        "athlete": {
+         "id": "158721",
+         "displayName": "Finn Russell"
+        }
+       }
+      ],
+      "addedClock": {
+       "value": 0.0,
+       "displayValue": "8'"
+      }
+     }
+    ],
+    "boxscoreMinutes": false
+   }
+  ],
+  "league": {
+   "id": "8323",
+   "uid": "s:300~l:8323",
+   "name": "Six Nations",
+   "abbreviation": "Six Nations",
+   "shortName": "Six Nations",
+   "midsizeName": "180659",
+   "slug": "180659",
+   "isTournament": true
+  }
+ },
+ "wallclockAvailable": false,
+ "meta": {
+  "gameSwitcherEnabled": false,
+  "gameState": "post"
+ }
+}

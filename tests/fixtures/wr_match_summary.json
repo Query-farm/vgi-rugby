@@ -1,0 +1,2912 @@
+{
+ "match": {
+  "matchId": "d21f7bed-f2f9-45bd-be33-3a0fc9beec42",
+  "matchAltId": "d21f7bed-f2f9-45bd-be33-3a0fc9beec42",
+  "description": null,
+  "eventPhase": null,
+  "eventPhaseId": null,
+  "venue": {
+   "id": "3",
+   "altId": "29e4b8a8-2de0-4311-b4c0-aed196480b73",
+   "name": "Allianz Stadium",
+   "city": "London",
+   "country": "England"
+  },
+  "time": {
+   "millis": 1794150600000,
+   "gmtOffset": 0.0,
+   "label": "2026-11-08"
+  },
+  "attendance": null,
+  "teams": [
+   {
+    "id": "34",
+    "altId": "b543a019-7df4-4ba0-b1e9-bc796d20df88",
+    "name": "England",
+    "abbreviation": "ENG",
+    "countryCode": null,
+    "annotations": null,
+    "metadata": {}
+   },
+   {
+    "id": "38",
+    "altId": "d655c863-3956-41fe-955d-02f7d2d00bc5",
+    "name": "Australia",
+    "abbreviation": "AUS",
+    "countryCode": null,
+    "annotations": null,
+    "metadata": {}
+   }
+  ],
+  "scores": [
+   45,
+   22
+  ],
+  "kc": null,
+  "status": "C",
+  "clock": {
+   "secs": 4816,
+   "label": "80:16"
+  },
+  "outcome": "A",
+  "events": [
+   {
+    "id": "46294cf5-dee3-4234-957a-dbe1f08049f2",
+    "altId": "46294cf5-dee3-4234-957a-dbe1f08049f2",
+    "label": "Nations Championship 2026",
+    "sport": "mru",
+    "start": {
+     "millis": 1783036800000,
+     "gmtOffset": 0.0,
+     "label": "2026-07-03"
+    },
+    "end": {
+     "millis": 1795910400000,
+     "gmtOffset": 0.0,
+     "label": "2026-11-29"
+    },
+    "abbr": "",
+    "winningTeam": null,
+    "eventStatus": {
+     "eventStatusID": 1,
+     "eventStatusName": "Scheduled"
+    },
+    "seriesId": null,
+    "seriesAltId": null,
+    "rankingsWeight": 0.0,
+    "metadata": {},
+    "impactPlayers": null,
+    "teamPerformances": null
+   }
+  ],
+  "sport": "mru",
+  "competition": "Nations Championship 2026",
+  "weather": {
+   "matchWeather": null,
+   "matchMinTemperature": null,
+   "matchMaxTemperature": null,
+   "matchWindConditions": null,
+   "matchPitchConditions": null
+  },
+  "rankingsWeight": null
+ },
+ "teams": [
+  {
+   "teamList": {
+    "list": [
+     {
+      "player": {
+       "id": "65521",
+       "altId": "6ab668cb-5428-4d8e-9916-f897a8ee7247",
+       "name": {
+        "initials": "A",
+        "first": {
+         "known": "Alex",
+         "official": "Alex"
+        },
+        "last": {
+         "known": "Coles",
+         "official": "Coles"
+        },
+        "display": "Alex Coles"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 937872000000,
+        "gmtOffset": 0.0,
+        "label": "1999-09-21"
+       },
+       "dod": null,
+       "age": {
+        "years": 27,
+        "months": 1,
+        "days": 20
+       },
+       "country": "Great Britain",
+       "height": 197,
+       "weight": 113,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": true,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 23,
+       "role": "Player"
+      },
+      "number": "5",
+      "position": "SR",
+      "positionLabel": "Lock",
+      "order": 8
+     },
+     {
+      "player": {
+       "id": "56808",
+       "altId": "b11dc09a-82e8-415c-a5c0-0bb93aaea392",
+       "name": {
+        "initials": "W",
+        "first": {
+         "known": "Will",
+         "official": "William"
+        },
+        "last": {
+         "known": "Stuart",
+         "official": "Stuart"
+        },
+        "display": "Will Stuart"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 837129600000,
+        "gmtOffset": 0.0,
+        "label": "1996-07-12"
+       },
+       "dod": null,
+       "age": {
+        "years": 30,
+        "months": 3,
+        "days": 29
+       },
+       "country": "Great Britain",
+       "height": 189,
+       "weight": 124,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 57,
+       "role": "Player"
+      },
+      "number": "18",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 33
+     },
+     {
+      "player": {
+       "id": "59733",
+       "altId": "16ad7941-fb01-48de-9c1d-5d62f3cdbf39",
+       "name": {
+        "initials": "BA",
+        "first": {
+         "known": "Ben",
+         "official": "Benjamin Arthur"
+        },
+        "last": {
+         "known": "Earl",
+         "official": "Earl"
+        },
+        "display": "Ben Earl"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 884131200000,
+        "gmtOffset": 0.0,
+        "label": "1998-01-07"
+       },
+       "dod": null,
+       "age": {
+        "years": 28,
+        "months": 10,
+        "days": 3
+       },
+       "country": "Great Britain",
+       "height": 183,
+       "weight": 95,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": true,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 57,
+       "role": "Player"
+      },
+      "number": "8",
+      "position": "N8",
+      "positionLabel": "Number 8",
+      "order": 12
+     },
+     {
+      "player": {
+       "id": "59924",
+       "altId": "d1b5f6c5-94b7-4354-acd0-1080e7e2af5d",
+       "name": {
+        "initials": "MS",
+        "first": {
+         "known": "Marcus",
+         "official": "Marcus Sebastian"
+        },
+        "last": {
+         "known": "Smith",
+         "official": "Smith"
+        },
+        "display": "Marcus Smith"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": "Makati City, Philippines",
+       "dob": {
+        "millis": 918950400000,
+        "gmtOffset": 0.0,
+        "label": "1999-02-14"
+       },
+       "dod": null,
+       "age": {
+        "years": 27,
+        "months": 8,
+        "days": 27
+       },
+       "country": "Great Britain",
+       "height": 175,
+       "weight": 83,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 55,
+       "role": "Player"
+      },
+      "number": "23",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 38
+     },
+     {
+      "player": {
+       "id": "71349",
+       "altId": "2f22932e-49a1-4694-8408-61604032a6e4",
+       "name": {
+        "initials": "S",
+        "first": {
+         "known": "Seb",
+         "official": "Seb"
+        },
+        "last": {
+         "known": "Atkinson",
+         "official": "Atkinson"
+        },
+        "display": "Seb Atkinson"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": "Kensington, England",
+       "dob": {
+        "millis": 1021939200000,
+        "gmtOffset": 0.0,
+        "label": "2002-05-21"
+       },
+       "dod": null,
+       "age": {
+        "years": 24,
+        "months": 5,
+        "days": 20
+       },
+       "country": "England",
+       "height": null,
+       "weight": null,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 8,
+       "role": "Player"
+      },
+      "number": "12",
+      "position": "CE",
+      "positionLabel": "Centre",
+      "order": 19
+     },
+     {
+      "player": {
+       "id": "71358",
+       "altId": "e64a9cfa-4d28-46e7-84ee-c8526ca8545a",
+       "name": {
+        "initials": "F",
+        "first": {
+         "known": "Fin",
+         "official": "Fin"
+        },
+        "last": {
+         "known": "Smith",
+         "official": "Smith"
+        },
+        "display": "Fin Smith"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": "Warwick, England",
+       "dob": {
+        "millis": 1021075200000,
+        "gmtOffset": 0.0,
+        "label": "2002-05-11"
+       },
+       "dod": null,
+       "age": {
+        "years": 24,
+        "months": 5,
+        "days": 30
+       },
+       "country": "Great Britain",
+       "height": null,
+       "weight": null,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 20,
+       "role": "Player"
+      },
+      "number": "10",
+      "position": "FH",
+      "positionLabel": "Fly Half",
+      "order": 17
+     },
+     {
+      "player": {
+       "id": "45665",
+       "altId": "51d15d5e-e60c-4536-8b37-272acff435d1",
+       "name": {
+        "initials": "BT",
+        "first": {
+         "known": "Ben",
+         "official": "Benjamin Thomas"
+        },
+        "last": {
+         "known": "Spencer",
+         "official": "Spencer"
+        },
+        "display": "Ben Spencer"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": "Stockport, England",
+       "dob": {
+        "millis": 712540800000,
+        "gmtOffset": 0.0,
+        "label": "1992-07-31"
+       },
+       "dod": null,
+       "age": {
+        "years": 34,
+        "months": 3,
+        "days": 10
+       },
+       "country": "Great Britain",
+       "height": 178,
+       "weight": 83,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 20,
+       "role": "Player"
+      },
+      "number": "22",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 37
+     },
+     {
+      "player": {
+       "id": "72931",
+       "altId": "d84b85e7-9214-4a4f-a138-e3fb5dc9c915",
+       "name": {
+        "initials": "OA",
+        "first": {
+         "known": "Ollie",
+         "official": "Oliver Andrew"
+        },
+        "last": {
+         "known": "Chessum",
+         "official": "Chessum"
+        },
+        "display": "Ollie Chessum"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 968198400000,
+        "gmtOffset": 0.0,
+        "label": "2000-09-06"
+       },
+       "dod": null,
+       "age": {
+        "years": 26,
+        "months": 2,
+        "days": 4
+       },
+       "country": "Great Britain",
+       "height": 201,
+       "weight": 118,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": true,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 42,
+       "role": "Player"
+      },
+      "number": "6",
+      "position": "FL",
+      "positionLabel": "Flanker",
+      "order": 9
+     },
+     {
+      "player": {
+       "id": "59730",
+       "altId": "21375af7-114f-476b-8a8f-7c5528756060",
+       "name": {
+        "initials": "B",
+        "first": {
+         "known": "Ben",
+         "official": "Ben"
+        },
+        "last": {
+         "known": "Curry",
+         "official": "Curry"
+        },
+        "display": "Ben Curry"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 897868800000,
+        "gmtOffset": 0.0,
+        "label": "1998-06-15"
+       },
+       "dod": null,
+       "age": {
+        "years": 28,
+        "months": 4,
+        "days": 26
+       },
+       "country": "Great Britain",
+       "height": null,
+       "weight": null,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": true,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 15,
+       "role": "Player"
+      },
+      "number": "7",
+      "position": "FL",
+      "positionLabel": "Flanker",
+      "order": 11
+     },
+     {
+      "player": {
+       "id": "71747",
+       "altId": "89cdef22-3305-4388-9ed3-274785b8d98b",
+       "name": {
+        "initials": "F",
+        "first": {
+         "known": "Fin",
+         "official": "Fin"
+        },
+        "last": {
+         "known": "Baxter",
+         "official": "Baxter"
+        },
+        "display": "Fin Baxter"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 1013472000000,
+        "gmtOffset": 0.0,
+        "label": "2002-02-12"
+       },
+       "dod": null,
+       "age": {
+        "years": 24,
+        "months": 8,
+        "days": 29
+       },
+       "country": null,
+       "height": null,
+       "weight": null,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": true,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 19,
+       "role": "Player"
+      },
+      "number": "1",
+      "position": "PR",
+      "positionLabel": "Prop",
+      "order": 1
+     },
+     {
+      "player": {
+       "id": "55592",
+       "altId": "1dd63dba-6aa4-445a-acd4-3e5885685954",
+       "name": {
+        "initials": "E",
+        "first": {
+         "known": "Ellis",
+         "official": "Ellis"
+        },
+        "last": {
+         "known": "Genge",
+         "official": "Genge"
+        },
+        "display": "Ellis Genge"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": "Bristol, England",
+       "dob": {
+        "millis": 792892800000,
+        "gmtOffset": 0.0,
+        "label": "1995-02-16"
+       },
+       "dod": null,
+       "age": {
+        "years": 31,
+        "months": 8,
+        "days": 25
+       },
+       "country": "Great Britain",
+       "height": 187,
+       "weight": 113,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 87,
+       "role": "Player"
+      },
+      "number": "17",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 32
+     },
+     {
+      "player": {
+       "id": "62479",
+       "altId": "201076b6-e39a-4805-b86a-f71f55113ea2",
+       "name": {
+        "initials": "J",
+        "first": {
+         "known": "Joe",
+         "official": "Joseph"
+        },
+        "last": {
+         "known": "Heyes",
+         "official": "Heyes"
+        },
+        "display": "Joe Heyes"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 923961600000,
+        "gmtOffset": 0.0,
+        "label": "1999-04-13"
+       },
+       "dod": null,
+       "age": {
+        "years": 27,
+        "months": 6,
+        "days": 28
+       },
+       "country": "Great Britain",
+       "height": 189,
+       "weight": 127,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": true,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 25,
+       "role": "Player"
+      },
+      "number": "3",
+      "position": "PR",
+      "positionLabel": "Prop",
+      "order": 5
+     },
+     {
+      "player": {
+       "id": "74269",
+       "altId": "8bbf2180-84b1-4a5b-9b0d-96a69493b294",
+       "name": {
+        "initials": "J",
+        "first": {
+         "known": "Jack",
+         "official": "Jack"
+        },
+        "last": {
+         "known": "van Poortvliet",
+         "official": "van Poortvliet"
+        },
+        "display": "Jack van Poortvliet"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": "Norwich, England",
+       "dob": {
+        "millis": 989884800000,
+        "gmtOffset": 0.0,
+        "label": "2001-05-15"
+       },
+       "dod": null,
+       "age": {
+        "years": 25,
+        "months": 5,
+        "days": 26
+       },
+       "country": "Great Britain",
+       "height": null,
+       "weight": null,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 28,
+       "role": "Player"
+      },
+      "number": "9",
+      "position": "SH",
+      "positionLabel": "Scrum Half",
+      "order": 13
+     },
+     {
+      "player": {
+       "id": "c09ef62a-2447-4a70-8fec-8adce9af03bf",
+       "altId": "c09ef62a-2447-4a70-8fec-8adce9af03bf",
+       "name": {
+        "initials": "F",
+        "first": {
+         "known": "Immanuel",
+         "official": "Immanuel"
+        },
+        "last": {
+         "known": "Feyi-Waboso",
+         "official": "Feyi-Waboso"
+        },
+        "display": "Immanuel Feyi-Waboso"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 1040342400000,
+        "gmtOffset": 0.0,
+        "label": "2002-12-20"
+       },
+       "dod": null,
+       "age": {
+        "years": 23,
+        "months": 10,
+        "days": 21
+       },
+       "country": null,
+       "height": null,
+       "weight": null,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 17,
+       "role": "Player"
+      },
+      "number": "11",
+      "position": "WI",
+      "positionLabel": "Wing",
+      "order": 18
+     },
+     {
+      "player": {
+       "id": "68917",
+       "altId": "1f7c54a7-4b96-44a6-9b48-6148ceba1ef0",
+       "name": {
+        "initials": "GF",
+        "first": {
+         "known": "George",
+         "official": "George Frederick"
+        },
+        "last": {
+         "known": "Martin",
+         "official": "Martin"
+        },
+        "display": "George Martin"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": "Nottingham, England",
+       "dob": {
+        "millis": 992822400000,
+        "gmtOffset": 0.0,
+        "label": "2001-06-18"
+       },
+       "dod": null,
+       "age": {
+        "years": 25,
+        "months": 4,
+        "days": 23
+       },
+       "country": "Great Britain",
+       "height": 198,
+       "weight": 118,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 26,
+       "role": "Player"
+      },
+      "number": "19",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 34
+     },
+     {
+      "player": {
+       "id": "36524",
+       "altId": "5fa5dc62-1ee9-47d2-ad97-1a6dfb3e3842",
+       "name": {
+        "initials": "JE",
+        "first": {
+         "known": "Jamie",
+         "official": "Jamie Edward"
+        },
+        "last": {
+         "known": "George",
+         "official": "George"
+        },
+        "display": "Jamie George"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": "Welwyn Garden City, England",
+       "dob": {
+        "millis": 656380800000,
+        "gmtOffset": 0.0,
+        "label": "1990-10-20"
+       },
+       "dod": null,
+       "age": {
+        "years": 36,
+        "months": 0,
+        "days": 21
+       },
+       "country": "Great Britain",
+       "height": 183,
+       "weight": 109,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": true,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 118,
+       "role": "Player"
+      },
+      "number": "2",
+      "position": "HK",
+      "positionLabel": "Hooker",
+      "order": 4
+     },
+     {
+      "player": {
+       "id": "0237b855-7cdf-49c6-b720-2d35ea6d4bbd",
+       "altId": "0237b855-7cdf-49c6-b720-2d35ea6d4bbd",
+       "name": {
+        "initials": "HJ",
+        "first": {
+         "known": "Henry",
+         "official": "Henry Joseph"
+        },
+        "last": {
+         "known": "Pollock",
+         "official": "Pollock"
+        },
+        "display": "Henry Pollock"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 1105660800000,
+        "gmtOffset": 0.0,
+        "label": "2005-01-14"
+       },
+       "dod": null,
+       "age": {
+        "years": 21,
+        "months": 9,
+        "days": 27
+       },
+       "country": "Great Britain",
+       "height": null,
+       "weight": null,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 14,
+       "role": "Player"
+      },
+      "number": "21",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 36
+     },
+     {
+      "player": {
+       "id": "73183",
+       "altId": "ccec22a7-eb2a-42ea-beff-fe0eec380219",
+       "name": {
+        "initials": "GSF",
+        "first": {
+         "known": "Greg",
+         "official": "Gregory Selemaia Feleti"
+        },
+        "last": {
+         "known": "Fisilau",
+         "official": "Fisilau"
+        },
+        "display": "Greg Fisilau"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 1057708800000,
+        "gmtOffset": 0.0,
+        "label": "2003-07-09"
+       },
+       "dod": null,
+       "age": {
+        "years": 23,
+        "months": 4,
+        "days": 1
+       },
+       "country": null,
+       "height": 189,
+       "weight": 107,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 1,
+       "role": "Player"
+      },
+      "number": "20",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 35
+     },
+     {
+      "player": {
+       "id": "45651",
+       "altId": "8fb46ab1-1ea3-424e-873e-b4c49eb3be28",
+       "name": {
+        "initials": "LA",
+        "first": {
+         "known": "Luke",
+         "official": "Luke Anthony"
+        },
+        "last": {
+         "known": "Cowan-Dickie",
+         "official": "Cowan-Dickie"
+        },
+        "display": "Luke Cowan-Dickie"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": "Truro, England",
+       "dob": {
+        "millis": 740534400000,
+        "gmtOffset": 0.0,
+        "label": "1993-06-20"
+       },
+       "dod": null,
+       "age": {
+        "years": 33,
+        "months": 4,
+        "days": 21
+       },
+       "country": "Great Britain",
+       "height": 184,
+       "weight": 109,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 65,
+       "role": "Player"
+      },
+      "number": "16",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 31
+     }
+    ],
+    "captainIds": [
+     "3725018a-6133-4a6d-97cb-8a488a9a7ad1"
+    ],
+    "captainAltIds": null
+   },
+   "scoring": {
+    "Con": [
+     {
+      "phase": "L1",
+      "time": {
+       "secs": 1609,
+       "label": "26:49"
+      },
+      "type": "C2",
+      "typeLabel": "Conversion",
+      "group": null,
+      "points": null,
+      "playerId": "71358",
+      "playerAltId": "e64a9cfa-4d28-46e7-84ee-c8526ca8545a",
+      "teamIndex": 1,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794152209000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     },
+     {
+      "phase": "L1",
+      "time": {
+       "secs": 2026,
+       "label": "33:46"
+      },
+      "type": "C2",
+      "typeLabel": "Conversion",
+      "group": null,
+      "points": null,
+      "playerId": "71358",
+      "playerAltId": "e64a9cfa-4d28-46e7-84ee-c8526ca8545a",
+      "teamIndex": 1,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794152626000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     },
+     {
+      "phase": "L2",
+      "time": {
+       "secs": 2553,
+       "label": "42:33"
+      },
+      "type": "C2",
+      "typeLabel": "Conversion",
+      "group": null,
+      "points": null,
+      "playerId": "71358",
+      "playerAltId": "e64a9cfa-4d28-46e7-84ee-c8526ca8545a",
+      "teamIndex": 1,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794153153000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     },
+     {
+      "phase": "L2",
+      "time": {
+       "secs": 3457,
+       "label": "57:37"
+      },
+      "type": "C2",
+      "typeLabel": "Conversion",
+      "group": null,
+      "points": null,
+      "playerId": "71358",
+      "playerAltId": "e64a9cfa-4d28-46e7-84ee-c8526ca8545a",
+      "teamIndex": 1,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794154057000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     },
+     {
+      "phase": "L2",
+      "time": {
+       "secs": 4578,
+       "label": "76:18"
+      },
+      "type": "C2",
+      "typeLabel": "Conversion",
+      "group": null,
+      "points": null,
+      "playerId": "71358",
+      "playerAltId": "e64a9cfa-4d28-46e7-84ee-c8526ca8545a",
+      "teamIndex": 1,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794155178000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     }
+    ],
+    "Pen": [],
+    "Try": [
+     {
+      "phase": "L1",
+      "time": {
+       "secs": 462,
+       "label": "07:42"
+      },
+      "type": "T5",
+      "typeLabel": "Try",
+      "group": null,
+      "points": null,
+      "playerId": "36524",
+      "playerAltId": "5fa5dc62-1ee9-47d2-ad97-1a6dfb3e3842",
+      "teamIndex": 1,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794151062000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     },
+     {
+      "phase": "L1",
+      "time": {
+       "secs": 1551,
+       "label": "25:51"
+      },
+      "type": "T5",
+      "typeLabel": "Try",
+      "group": null,
+      "points": null,
+      "playerId": "72931",
+      "playerAltId": "d84b85e7-9214-4a4f-a138-e3fb5dc9c915",
+      "teamIndex": 1,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794152151000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     },
+     {
+      "phase": "L1",
+      "time": {
+       "secs": 1974,
+       "label": "32:54"
+      },
+      "type": "T5",
+      "typeLabel": "Try",
+      "group": null,
+      "points": null,
+      "playerId": "62479",
+      "playerAltId": "201076b6-e39a-4805-b86a-f71f55113ea2",
+      "teamIndex": 1,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794152574000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     },
+     {
+      "phase": "L2",
+      "time": {
+       "secs": 2524,
+       "label": "42:04"
+      },
+      "type": "T5",
+      "typeLabel": "Try",
+      "group": null,
+      "points": null,
+      "playerId": "74269",
+      "playerAltId": "8bbf2180-84b1-4a5b-9b0d-96a69493b294",
+      "teamIndex": 1,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794153124000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     },
+     {
+      "phase": "L2",
+      "time": {
+       "secs": 3268,
+       "label": "54:28"
+      },
+      "type": "T5",
+      "typeLabel": "Try",
+      "group": null,
+      "points": null,
+      "playerId": "0237b855-7cdf-49c6-b720-2d35ea6d4bbd",
+      "playerAltId": "0237b855-7cdf-49c6-b720-2d35ea6d4bbd",
+      "teamIndex": 1,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794153868000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     },
+     {
+      "phase": "L2",
+      "time": {
+       "secs": 3409,
+       "label": "56:49"
+      },
+      "type": "T5",
+      "typeLabel": "Try",
+      "group": null,
+      "points": null,
+      "playerId": "0237b855-7cdf-49c6-b720-2d35ea6d4bbd",
+      "playerAltId": "0237b855-7cdf-49c6-b720-2d35ea6d4bbd",
+      "teamIndex": 1,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794154009000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     },
+     {
+      "phase": "L2",
+      "time": {
+       "secs": 4521,
+       "label": "75:21"
+      },
+      "type": "T5",
+      "typeLabel": "Try",
+      "group": null,
+      "points": null,
+      "playerId": "45665",
+      "playerAltId": "51d15d5e-e60c-4536-8b37-272acff435d1",
+      "teamIndex": 1,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794155121000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     }
+    ],
+    "dropGoals": []
+   },
+   "disciplinary": {
+    "RC": [],
+    "YC": []
+   }
+  },
+  {
+   "teamList": {
+    "list": [
+     {
+      "player": {
+       "id": "15235",
+       "altId": "4e009921-069f-4a50-a3f2-1f75c2f6855f",
+       "name": {
+        "initials": "LJ",
+        "first": {
+         "known": "Les",
+         "official": "Leslie James"
+        },
+        "last": {
+         "known": "Kiss",
+         "official": "Kiss"
+        },
+        "display": "Les Kiss"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": "Blackall, Australia",
+       "dob": {
+        "millis": -191376000000,
+        "gmtOffset": 0.0,
+        "label": "1963-12-09"
+       },
+       "dod": null,
+       "age": {
+        "years": 62,
+        "months": 11,
+        "days": 1
+       },
+       "country": "Australia",
+       "height": 0,
+       "weight": 0,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 0,
+       "role": "Management"
+      },
+      "number": null,
+      "position": null,
+      "positionLabel": "Head Coach",
+      "order": 1
+     },
+     {
+      "player": {
+       "id": "a3fbed60-014b-4fc7-82e3-61eb8e720847",
+       "altId": "a3fbed60-014b-4fc7-82e3-61eb8e720847",
+       "name": {
+        "initials": "MW",
+        "first": {
+         "known": "Max",
+         "official": "Max William"
+        },
+        "last": {
+         "known": "Jorgensen",
+         "official": "Jorgensen"
+        },
+        "display": "Max Jorgensen"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 1094083200000,
+        "gmtOffset": 0.0,
+        "label": "2004-09-02"
+       },
+       "dod": null,
+       "age": {
+        "years": 22,
+        "months": 2,
+        "days": 8
+       },
+       "country": "Australia",
+       "height": 184,
+       "weight": 87,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 31,
+       "role": "Player"
+      },
+      "number": "14",
+      "position": "WI",
+      "positionLabel": "Wing",
+      "order": 25
+     },
+     {
+      "player": {
+       "id": "bd69a772-4ce2-4a20-be22-1c8b4659bdbb",
+       "altId": "bd69a772-4ce2-4a20-be22-1c8b4659bdbb",
+       "name": {
+        "initials": "I",
+        "first": {
+         "known": "Isaac",
+         "official": "Isaac"
+        },
+        "last": {
+         "known": "Aedo Kailea",
+         "official": "Aedo Kailea"
+        },
+        "display": "Isaac Aedo Kailea"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 963446400000,
+        "gmtOffset": 0.0,
+        "label": "2000-07-13"
+       },
+       "dod": null,
+       "age": {
+        "years": 26,
+        "months": 3,
+        "days": 28
+       },
+       "country": null,
+       "height": null,
+       "weight": null,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 10,
+       "role": "Player"
+      },
+      "number": "17",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 32
+     },
+     {
+      "player": {
+       "id": "66851",
+       "altId": "7503b78d-d80e-4067-86f6-3a4bc1d259ae",
+       "name": {
+        "initials": "H",
+        "first": {
+         "known": "Harry",
+         "official": "Harrison"
+        },
+        "last": {
+         "known": "Wilson",
+         "official": "Wilson"
+        },
+        "display": "Harry Wilson"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 943228800000,
+        "gmtOffset": 0.0,
+        "label": "1999-11-22"
+       },
+       "dod": null,
+       "age": {
+        "years": 26,
+        "months": 11,
+        "days": 19
+       },
+       "country": "Australia",
+       "height": 195,
+       "weight": 108,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": true,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 46,
+       "role": "Player"
+      },
+      "number": "8",
+      "position": "N8",
+      "positionLabel": "Number 8",
+      "order": 12
+     },
+     {
+      "player": {
+       "id": "45629",
+       "altId": "39074308-c087-401b-9b84-898df0be2dce",
+       "name": {
+        "initials": "AE",
+        "first": {
+         "known": "Allan",
+         "official": "Allan Emani"
+        },
+        "last": {
+         "known": "Alaalatoa",
+         "official": "Alaalatoa"
+        },
+        "display": "Allan Alaalatoa"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": "Camperdown, Australia",
+       "dob": {
+        "millis": 759715200000,
+        "gmtOffset": 0.0,
+        "label": "1994-01-28"
+       },
+       "dod": null,
+       "age": {
+        "years": 32,
+        "months": 9,
+        "days": 13
+       },
+       "country": "Australia",
+       "height": 188,
+       "weight": 120,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": true,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 97,
+       "role": "Player"
+      },
+      "number": "3",
+      "position": "PR",
+      "positionLabel": "Prop",
+      "order": 5
+     },
+     {
+      "player": {
+       "id": "66852",
+       "altId": "2bb6f5af-8705-44cb-8dbc-fde7d154f3e4",
+       "name": {
+        "initials": "I",
+        "first": {
+         "known": "Isaac",
+         "official": "Isaac Robert Ian"
+        },
+        "last": {
+         "known": "Henry",
+         "official": "Henry"
+        },
+        "display": "Isaac Henry"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 920851200000,
+        "gmtOffset": 0.0,
+        "label": "1999-03-08"
+       },
+       "dod": null,
+       "age": {
+        "years": 27,
+        "months": 8,
+        "days": 2
+       },
+       "country": null,
+       "height": null,
+       "weight": null,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 7,
+       "role": "Player"
+      },
+      "number": "13",
+      "position": "CE",
+      "positionLabel": "Centre",
+      "order": 21
+     },
+     {
+      "player": {
+       "id": "61868",
+       "altId": "4de41984-713a-46e5-b9a6-039ccbb26121",
+       "name": {
+        "initials": "DTFF",
+        "first": {
+         "known": "Taniela",
+         "official": "Daniel Tofeki o Fangapaua Folau"
+        },
+        "last": {
+         "known": "Tupou",
+         "official": "Tupou"
+        },
+        "display": "Taniela Tupou"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": "Tofoa, Tonga",
+       "dob": {
+        "millis": 831686400000,
+        "gmtOffset": 0.0,
+        "label": "1996-05-10"
+       },
+       "dod": null,
+       "age": {
+        "years": 30,
+        "months": 6,
+        "days": 0
+       },
+       "country": "Tonga",
+       "height": 181,
+       "weight": 132,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 75,
+       "role": "Player"
+      },
+      "number": "18",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 33
+     },
+     {
+      "player": {
+       "id": "73987",
+       "altId": "4945cbf8-5421-42f9-be29-ae9097dbaf2c",
+       "name": {
+        "initials": "BT",
+        "first": {
+         "known": "Billy",
+         "official": "Billy Terrence"
+        },
+        "last": {
+         "known": "Pollard",
+         "official": "Pollard"
+        },
+        "display": "Billy Pollard"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 1007856000000,
+        "gmtOffset": 0.0,
+        "label": "2001-12-09"
+       },
+       "dod": null,
+       "age": {
+        "years": 24,
+        "months": 11,
+        "days": 1
+       },
+       "country": "Australia",
+       "height": null,
+       "weight": null,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": true,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 27,
+       "role": "Player"
+      },
+      "number": "2",
+      "position": "HK",
+      "positionLabel": "Hooker",
+      "order": 4
+     },
+     {
+      "player": {
+       "id": "63164",
+       "altId": "5ccb1fd7-a05a-4dfb-8309-946b5f556f32",
+       "name": {
+        "initials": "F",
+        "first": {
+         "known": "Fraser",
+         "official": "Fraser Andrew"
+        },
+        "last": {
+         "known": "McReight",
+         "official": "McReight"
+        },
+        "display": "Fraser McReight"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 919382400000,
+        "gmtOffset": 0.0,
+        "label": "1999-02-19"
+       },
+       "dod": null,
+       "age": {
+        "years": 27,
+        "months": 8,
+        "days": 22
+       },
+       "country": "Australia",
+       "height": 184,
+       "weight": 103,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": true,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 50,
+       "role": "Player"
+      },
+      "number": "7",
+      "position": "FL",
+      "positionLabel": "Flanker",
+      "order": 11
+     },
+     {
+      "player": {
+       "id": "60450",
+       "altId": "d7dedd8a-4f28-43bb-bdbc-b5c6c89b7277",
+       "name": {
+        "initials": "R",
+        "first": {
+         "known": "Rob",
+         "official": "Robert"
+        },
+        "last": {
+         "known": "Valetini",
+         "official": "Valetini"
+        },
+        "display": "Rob Valetini"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": "Clayton, Australia",
+       "dob": {
+        "millis": 904780800000,
+        "gmtOffset": 0.0,
+        "label": "1998-09-03"
+       },
+       "dod": null,
+       "age": {
+        "years": 28,
+        "months": 2,
+        "days": 7
+       },
+       "country": "Australia",
+       "height": 187,
+       "weight": 88,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 72,
+       "role": "Player"
+      },
+      "number": "19",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 34
+     },
+     {
+      "player": {
+       "id": "55788",
+       "altId": "c62c8e28-d6fa-4ffa-a977-f4a6b2698669",
+       "name": {
+        "initials": "LH",
+        "first": {
+         "known": "Lukhan",
+         "official": "Lukhan Herman"
+        },
+        "last": {
+         "known": "Salakaia-Loto",
+         "official": "Salakaia-Loto"
+        },
+        "display": "Lukhan Salakaia-Loto"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": "Otahuhu, New Zealand",
+       "dob": {
+        "millis": 843091200000,
+        "gmtOffset": 0.0,
+        "label": "1996-09-19"
+       },
+       "dod": null,
+       "age": {
+        "years": 30,
+        "months": 1,
+        "days": 22
+       },
+       "country": "New Zealand",
+       "height": 198,
+       "weight": 116,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": true,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 51,
+       "role": "Player"
+      },
+      "number": "5",
+      "position": "SR",
+      "positionLabel": "Lock",
+      "order": 8
+     },
+     {
+      "player": {
+       "id": "59640",
+       "altId": "89614443-3576-4e1d-bac8-9c5f9d0e484a",
+       "name": {
+        "initials": "T",
+        "first": {
+         "known": "Tate",
+         "official": "Tate"
+        },
+        "last": {
+         "known": "McDermott",
+         "official": "McDermott"
+        },
+        "display": "Tate McDermott"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 906076800000,
+        "gmtOffset": 0.0,
+        "label": "1998-09-18"
+       },
+       "dod": null,
+       "age": {
+        "years": 28,
+        "months": 1,
+        "days": 23
+       },
+       "country": "Australia",
+       "height": 175,
+       "weight": 80,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 58,
+       "role": "Player"
+      },
+      "number": "21",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 36
+     },
+     {
+      "player": {
+       "id": "66857",
+       "altId": "73b61a01-3fd1-498c-a261-441c8226e624",
+       "name": {
+        "initials": "C",
+        "first": {
+         "known": "Carlo",
+         "official": "Carlo"
+        },
+        "last": {
+         "known": "Tizzano",
+         "official": "Tizzano"
+        },
+        "display": "Carlo Tizzano"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 949449600000,
+        "gmtOffset": 0.0,
+        "label": "2000-02-02"
+       },
+       "dod": null,
+       "age": {
+        "years": 26,
+        "months": 9,
+        "days": 8
+       },
+       "country": null,
+       "height": null,
+       "weight": null,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 19,
+       "role": "Player"
+      },
+      "number": "20",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 35
+     },
+     {
+      "player": {
+       "id": "74430",
+       "altId": "4076f62b-20dc-48f0-b8fb-43bf805d3dc5",
+       "name": {
+        "initials": "J",
+        "first": {
+         "known": "Jeremy",
+         "official": "Jeremy"
+        },
+        "last": {
+         "known": "Williams",
+         "official": "Williams"
+        },
+        "display": "Jeremy Williams"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 975715200000,
+        "gmtOffset": 0.0,
+        "label": "2000-12-02"
+       },
+       "dod": null,
+       "age": {
+        "years": 25,
+        "months": 11,
+        "days": 8
+       },
+       "country": null,
+       "height": null,
+       "weight": null,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": true,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 35,
+       "role": "Player"
+      },
+      "number": "6",
+      "position": "FL",
+      "positionLabel": "Flanker",
+      "order": 9
+     },
+     {
+      "player": {
+       "id": "66844",
+       "altId": "7e725003-46fe-4000-a9ac-1342a28ce474",
+       "name": {
+        "initials": "B",
+        "first": {
+         "known": "Ben",
+         "official": "Ben"
+        },
+        "last": {
+         "known": "Donaldson",
+         "official": "Donaldson"
+        },
+        "display": "Ben Donaldson"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 923184000000,
+        "gmtOffset": 0.0,
+        "label": "1999-04-04"
+       },
+       "dod": null,
+       "age": {
+        "years": 27,
+        "months": 7,
+        "days": 6
+       },
+       "country": "Australia",
+       "height": 184,
+       "weight": 84,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 28,
+       "role": "Player"
+      },
+      "number": "22",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 37
+     },
+     {
+      "player": {
+       "id": "a1c63262-24a5-4063-8ef3-c023cfa14cea",
+       "altId": "a1c63262-24a5-4063-8ef3-c023cfa14cea",
+       "name": {
+        "initials": "DM",
+        "first": {
+         "known": "Declan",
+         "official": "Declan"
+        },
+        "last": {
+         "known": "Meredith",
+         "official": "Meredith"
+        },
+        "display": "Declan Meredith"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 930528000000,
+        "gmtOffset": 0.0,
+        "label": "1999-06-28"
+       },
+       "dod": null,
+       "age": {
+        "years": 27,
+        "months": 4,
+        "days": 13
+       },
+       "country": null,
+       "height": null,
+       "weight": null,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 6,
+       "role": "Player"
+      },
+      "number": "10",
+      "position": "FH",
+      "positionLabel": "Fly Half",
+      "order": 17
+     },
+     {
+      "player": {
+       "id": "55232",
+       "altId": "edebcf61-0502-43b1-a268-1386a8140c75",
+       "name": {
+        "initials": "FS",
+        "first": {
+         "known": "Filipo",
+         "official": "Filipo Suraki"
+        },
+        "last": {
+         "known": "Daugunu",
+         "official": "Daugunu"
+        },
+        "display": "Filipo Daugunu"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 794275200000,
+        "gmtOffset": 0.0,
+        "label": "1995-03-04"
+       },
+       "dod": null,
+       "age": {
+        "years": 31,
+        "months": 8,
+        "days": 6
+       },
+       "country": "Fiji",
+       "height": 178,
+       "weight": 84,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 26,
+       "role": "Player"
+      },
+      "number": "23",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 38
+     },
+     {
+      "player": {
+       "id": "63166",
+       "altId": "37ec81dd-9f9a-4621-b8dc-3b39daef451c",
+       "name": {
+        "initials": "J",
+        "first": {
+         "known": "Josh",
+         "official": "Joshua"
+        },
+        "last": {
+         "known": "Nasser",
+         "official": "Nasser"
+        },
+        "display": "Josh Nasser"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 930096000000,
+        "gmtOffset": 0.0,
+        "label": "1999-06-23"
+       },
+       "dod": null,
+       "age": {
+        "years": 27,
+        "months": 4,
+        "days": 18
+       },
+       "country": null,
+       "height": null,
+       "weight": null,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": true,
+       "hasLeftSquad": false,
+       "caps": 19,
+       "role": "Player"
+      },
+      "number": "16",
+      "position": "Rep",
+      "positionLabel": "Replacement",
+      "order": 31
+     },
+     {
+      "player": {
+       "id": "66845",
+       "altId": "3f507ed2-d4aa-4ca3-8ce1-9ec8a783b3d5",
+       "name": {
+        "initials": "A",
+        "first": {
+         "known": "Angus",
+         "official": "Angus"
+        },
+        "last": {
+         "known": "Bell",
+         "official": "Bell"
+        },
+        "display": "Angus Bell"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 970617600000,
+        "gmtOffset": 0.0,
+        "label": "2000-10-04"
+       },
+       "dod": null,
+       "age": {
+        "years": 26,
+        "months": 1,
+        "days": 6
+       },
+       "country": "Australia",
+       "height": 192,
+       "weight": 118,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": true,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 61,
+       "role": "Player"
+      },
+      "number": "1",
+      "position": "PR",
+      "positionLabel": "Prop",
+      "order": 1
+     },
+     {
+      "player": {
+       "id": "60431",
+       "altId": "04cf6c68-af01-4e4c-b2e2-22f7342e1c62",
+       "name": {
+        "initials": "R",
+        "first": {
+         "known": "Ryan",
+         "official": "Ryan"
+        },
+        "last": {
+         "known": "Lonergan",
+         "official": "Lonergan"
+        },
+        "display": "Ryan Lonergan"
+       },
+       "nickname": null,
+       "maiden": null,
+       "pob": null,
+       "dob": {
+        "millis": 891820800000,
+        "gmtOffset": 0.0,
+        "label": "1998-04-06"
+       },
+       "dod": null,
+       "age": {
+        "years": 28,
+        "months": 7,
+        "days": 4
+       },
+       "country": "Australia",
+       "height": null,
+       "weight": null,
+       "gender": "M",
+       "hallOfFameInducted": null,
+       "firstMatch": null,
+       "lastMatch": null,
+       "hasBeenImpactPlayer": false,
+       "hasBeenPlayerOfFinal": false,
+       "isPlayerOfTheMatchNominee": false,
+       "isPlayerOfTheMatch": false,
+       "isForward": false,
+       "isReplacement": false,
+       "hasLeftSquad": false,
+       "caps": 16,
+       "role": "Player"
+      },
+      "number": "9",
+      "position": "SH",
+      "positionLabel": "Scrum Half",
+      "order": 13
+     }
+    ],
+    "captainIds": [
+     "7503b78d-d80e-4067-86f6-3a4bc1d259ae"
+    ],
+    "captainAltIds": null
+   },
+   "scoring": {
+    "Con": [
+     {
+      "phase": "L1",
+      "time": {
+       "secs": 2409,
+       "label": "40:09"
+      },
+      "type": "C2",
+      "typeLabel": "Conversion",
+      "group": null,
+      "points": null,
+      "playerId": "60431",
+      "playerAltId": "04cf6c68-af01-4e4c-b2e2-22f7342e1c62",
+      "teamIndex": 0,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794153009000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     },
+     {
+      "phase": "L2",
+      "time": {
+       "secs": 4448,
+       "label": "74:08"
+      },
+      "type": "C2",
+      "typeLabel": "Conversion",
+      "group": null,
+      "points": null,
+      "playerId": "66844",
+      "playerAltId": "7e725003-46fe-4000-a9ac-1342a28ce474",
+      "teamIndex": 0,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794155048000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     }
+    ],
+    "Pen": [
+     {
+      "phase": "L1",
+      "time": {
+       "secs": 669,
+       "label": "11:09"
+      },
+      "type": "P3",
+      "typeLabel": "Penalty",
+      "group": null,
+      "points": null,
+      "playerId": "60431",
+      "playerAltId": "04cf6c68-af01-4e4c-b2e2-22f7342e1c62",
+      "teamIndex": 0,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794151269000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     }
+    ],
+    "Try": [
+     {
+      "phase": "L1",
+      "time": {
+       "secs": 2354,
+       "label": "39:14"
+      },
+      "type": "T5",
+      "typeLabel": "Try",
+      "group": null,
+      "points": null,
+      "playerId": "a3fbed60-014b-4fc7-82e3-61eb8e720847",
+      "playerAltId": "a3fbed60-014b-4fc7-82e3-61eb8e720847",
+      "teamIndex": 0,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794152954000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     },
+     {
+      "phase": "L2",
+      "time": {
+       "secs": 3690,
+       "label": "61:30"
+      },
+      "type": "T5",
+      "typeLabel": "Try",
+      "group": null,
+      "points": null,
+      "playerId": "55232",
+      "playerAltId": "edebcf61-0502-43b1-a268-1386a8140c75",
+      "teamIndex": 0,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794154290000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     },
+     {
+      "phase": "L2",
+      "time": {
+       "secs": 4393,
+       "label": "73:13"
+      },
+      "type": "T5",
+      "typeLabel": "Try",
+      "group": null,
+      "points": null,
+      "playerId": "74430",
+      "playerAltId": "4076f62b-20dc-48f0-b8fb-43bf805d3dc5",
+      "teamIndex": 0,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794154993000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     }
+    ],
+    "dropGoals": []
+   },
+   "disciplinary": {
+    "RC": [],
+    "YC": [
+     {
+      "phase": "L1",
+      "time": {
+       "secs": 1861,
+       "label": "31:01"
+      },
+      "type": "Yellow",
+      "typeLabel": "Yellow Card",
+      "group": null,
+      "points": null,
+      "playerId": "66845",
+      "playerAltId": "3f507ed2-d4aa-4ca3-8ce1-9ec8a783b3d5",
+      "teamIndex": 0,
+      "position": {
+       "x": null,
+       "y": null,
+       "ex": null,
+       "ey": null,
+       "m": null
+      },
+      "link": null,
+      "info": [],
+      "timestamp": {
+       "millis": 1794152461000,
+       "gmtOffset": 0.0,
+       "label": "2026-11-08"
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "officials": [
+  {
+   "official": {
+    "id": "57092",
+    "altId": "7ad9ed4a-38dc-4832-bdbf-1906e986aa5a",
+    "name": {
+     "initials": "P",
+     "first": {
+      "known": null,
+      "official": "Pierre"
+     },
+     "last": {
+      "known": null,
+      "official": "Brousset"
+     },
+     "display": "Pierre Brousset"
+    },
+    "nickname": null,
+    "maiden": null,
+    "pob": null,
+    "dob": null,
+    "dod": null,
+    "age": null,
+    "country": "France",
+    "height": 0,
+    "weight": 0,
+    "gender": "M",
+    "hallOfFameInducted": null,
+    "firstMatch": null,
+    "lastMatch": null,
+    "hasBeenImpactPlayer": false,
+    "hasBeenPlayerOfFinal": false,
+    "isPlayerOfTheMatchNominee": null,
+    "isPlayerOfTheMatch": null,
+    "isForward": null,
+    "isReplacement": null,
+    "hasLeftSquad": null,
+    "caps": null,
+    "role": null
+   },
+   "position": "Referee"
+  },
+  {
+   "official": {
+    "id": "49152",
+    "altId": "68a64ff7-1164-4960-809c-0645cea863c5",
+    "name": {
+     "initials": "N",
+     "first": {
+      "known": null,
+      "official": "Nika"
+     },
+     "last": {
+      "known": null,
+      "official": "Amashukeli"
+     },
+     "display": "Nika Amashukeli"
+    },
+    "nickname": null,
+    "maiden": null,
+    "pob": null,
+    "dob": null,
+    "dod": null,
+    "age": null,
+    "country": "Georgia",
+    "height": 0,
+    "weight": 0,
+    "gender": "M",
+    "hallOfFameInducted": null,
+    "firstMatch": null,
+    "lastMatch": null,
+    "hasBeenImpactPlayer": false,
+    "hasBeenPlayerOfFinal": false,
+    "isPlayerOfTheMatchNominee": null,
+    "isPlayerOfTheMatch": null,
+    "isForward": null,
+    "isReplacement": null,
+    "hasLeftSquad": null,
+    "caps": null,
+    "role": null
+   },
+   "position": "Assistant Referee 1"
+  },
+  {
+   "official": {
+    "id": "65495",
+    "altId": "9df437b9-7fcf-4471-b492-8495bddc6f22",
+    "name": {
+     "initials": "J",
+     "first": {
+      "known": null,
+      "official": "Jeremy"
+     },
+     "last": {
+      "known": null,
+      "official": "Rozier"
+     },
+     "display": "Jeremy Rozier"
+    },
+    "nickname": null,
+    "maiden": null,
+    "pob": null,
+    "dob": null,
+    "dod": null,
+    "age": null,
+    "country": "France",
+    "height": 0,
+    "weight": 0,
+    "gender": "M",
+    "hallOfFameInducted": null,
+    "firstMatch": null,
+    "lastMatch": null,
+    "hasBeenImpactPlayer": false,
+    "hasBeenPlayerOfFinal": false,
+    "isPlayerOfTheMatchNominee": null,
+    "isPlayerOfTheMatch": null,
+    "isForward": null,
+    "isReplacement": null,
+    "hasLeftSquad": null,
+    "caps": null,
+    "role": null
+   },
+   "position": "Assistant Referee 2"
+  },
+  {
+   "official": {
+    "id": "49551",
+    "altId": "9a5cee69-6f4c-4bc8-8735-cf49819360fc",
+    "name": {
+     "initials": "T",
+     "first": {
+      "known": null,
+      "official": "Tual"
+     },
+     "last": {
+      "known": null,
+      "official": "Trainini"
+     },
+     "display": "Tual Trainini"
+    },
+    "nickname": null,
+    "maiden": null,
+    "pob": null,
+    "dob": null,
+    "dod": null,
+    "age": null,
+    "country": "France",
+    "height": 0,
+    "weight": 0,
+    "gender": "M",
+    "hallOfFameInducted": null,
+    "firstMatch": null,
+    "lastMatch": null,
+    "hasBeenImpactPlayer": false,
+    "hasBeenPlayerOfFinal": false,
+    "isPlayerOfTheMatchNominee": null,
+    "isPlayerOfTheMatch": null,
+    "isForward": null,
+    "isReplacement": null,
+    "hasLeftSquad": null,
+    "caps": null,
+    "role": null
+   },
+   "position": "TV Match Official"
+  },
+  {
+   "official": {
+    "id": "45094",
+    "altId": "2f3f2555-2477-4e1c-a61e-446dab73185d",
+    "name": {
+     "initials": "M",
+     "first": {
+      "known": null,
+      "official": "Matteo"
+     },
+     "last": {
+      "known": null,
+      "official": "Liperini"
+     },
+     "display": "Matteo Liperini"
+    },
+    "nickname": null,
+    "maiden": null,
+    "pob": null,
+    "dob": null,
+    "dod": null,
+    "age": null,
+    "country": "Italy",
+    "height": 0,
+    "weight": 0,
+    "gender": "M",
+    "hallOfFameInducted": null,
+    "firstMatch": null,
+    "lastMatch": null,
+    "hasBeenImpactPlayer": false,
+    "hasBeenPlayerOfFinal": false,
+    "isPlayerOfTheMatchNominee": null,
+    "isPlayerOfTheMatch": null,
+    "isForward": null,
+    "isReplacement": null,
+    "hasLeftSquad": null,
+    "caps": null,
+    "role": null
+   },
+   "position": "Foul Play Review Officer (FPRO)"
+  }
+ ],
+ "motm": {
+  "nominees": [],
+  "motm": null
+ }
+}

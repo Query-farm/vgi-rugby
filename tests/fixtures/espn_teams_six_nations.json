@@ -1,0 +1,111 @@
+{
+ "sports": [
+  {
+   "id": "300",
+   "leagues": [
+    {
+     "abbreviation": "Six Nations",
+     "id": "8323",
+     "name": "Six Nations",
+     "season": {
+      "displayName": "2026",
+      "year": 2026
+     },
+     "shortName": "Six Nations",
+     "slug": "180659",
+     "teams": [
+      {
+       "team": {
+        "abbreviation": "ENG",
+        "color": "FF0000",
+        "displayName": "England",
+        "id": "1",
+        "isActive": true,
+        "isAllStar": false,
+        "name": "England",
+        "shortDisplayName": "England",
+        "slug": "england",
+        "uid": "s:300~t:1"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "FRA",
+        "color": "0000CC",
+        "displayName": "France",
+        "id": "9",
+        "isActive": true,
+        "isAllStar": false,
+        "name": "France",
+        "shortDisplayName": "France",
+        "slug": "france",
+        "uid": "s:300~t:9"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "IRE",
+        "color": "009900",
+        "displayName": "Ireland",
+        "id": "3",
+        "isActive": true,
+        "isAllStar": false,
+        "name": "Ireland",
+        "shortDisplayName": "Ireland",
+        "slug": "ireland",
+        "uid": "s:300~t:3"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "ITA",
+        "color": "3366FF",
+        "displayName": "Italy",
+        "id": "20",
+        "isActive": true,
+        "isAllStar": false,
+        "name": "Italy",
+        "shortDisplayName": "Italy",
+        "slug": "italy",
+        "uid": "s:300~t:20"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "SCO",
+        "color": "003366",
+        "displayName": "Scotland",
+        "id": "2",
+        "isActive": true,
+        "isAllStar": false,
+        "name": "Scotland",
+        "shortDisplayName": "Scotland",
+        "slug": "scotland",
+        "uid": "s:300~t:2"
+       }
+      },
+      {
+       "team": {
+        "abbreviation": "WAL",
+        "color": "FF0000",
+        "displayName": "Wales",
+        "id": "4",
+        "isActive": true,
+        "isAllStar": false,
+        "name": "Wales",
+        "shortDisplayName": "Wales",
+        "slug": "wales",
+        "uid": "s:300~t:4"
+       }
+      }
+     ],
+     "uid": "s:300~l:8323",
+     "year": 2026
+    }
+   ],
+   "name": "Rugby",
+   "slug": "rugby",
+   "uid": "s:300"
+  }
+ ]
+}

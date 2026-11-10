@@ -1,0 +1,130 @@
+{
+ "label": "Mens Rugby Union",
+ "entries": [
+  {
+   "team": {
+    "id": "39",
+    "altId": "a49729a5-a9e7-4a53-b18b-13b81d4752f4",
+    "name": "South Africa",
+    "abbreviation": "RSA",
+    "countryCode": "ZAF",
+    "annotations": null,
+    "metadata": {}
+   },
+   "pts": 93.09175036626566,
+   "pos": 1,
+   "previousPts": 93.09175036626566,
+   "previousPos": 1
+  },
+  {
+   "team": {
+    "id": "37",
+    "altId": "ec6ede05-0367-4b75-a66d-2d7a58950dcd",
+    "name": "New Zealand",
+    "abbreviation": "NZL",
+    "countryCode": "NZL",
+    "annotations": null,
+    "metadata": {}
+   },
+   "pts": 92.64616488656777,
+   "pos": 2,
+   "previousPts": 92.26927678109462,
+   "previousPos": 2
+  },
+  {
+   "team": {
+    "id": "36",
+    "altId": "f683c048-abc7-4713-9286-4dd1921a3285",
+    "name": "Ireland",
+    "abbreviation": "IRE",
+    "countryCode": "IRL",
+    "annotations": null,
+    "metadata": {}
+   },
+   "pts": 88.70050464466892,
+   "pos": 3,
+   "previousPts": 88.07507891841169,
+   "previousPos": 3
+  },
+  {
+   "team": {
+    "id": "42",
+    "altId": "6f456794-9a4a-4623-abba-c7f93fbaf7d7",
+    "name": "France",
+    "abbreviation": "FRA",
+    "countryCode": "FRA",
+    "annotations": null,
+    "metadata": {}
+   },
+   "pts": 87.48976513819092,
+   "pos": 4,
+   "previousPts": 87.42548925673894,
+   "previousPos": 4
+  },
+  {
+   "team": {
+    "id": "34",
+    "altId": "b543a019-7df4-4ba0-b1e9-bc796d20df88",
+    "name": "England",
+    "abbreviation": "ENG",
+    "countryCode": "ENG",
+    "annotations": null,
+    "metadata": {}
+   },
+   "pts": 86.9949315868917,
+   "pos": 5,
+   "previousPts": 85.68341259649182,
+   "previousPos": 5
+  },
+  {
+   "team": {
+    "id": "35",
+    "altId": "84c81e4f-f67a-4812-9800-df4c554de009",
+    "name": "Scotland",
+    "abbreviation": "SCO",
+    "countryCode": "SCO",
+    "annotations": null,
+    "metadata": {}
+   },
+   "pts": 84.40497604544251,
+   "pos": 6,
+   "previousPts": 84.78186415091567,
+   "previousPos": 6
+  },
+  {
+   "team": {
+    "id": "38",
+    "altId": "d655c863-3956-41fe-955d-02f7d2d00bc5",
+    "name": "Australia",
+    "abbreviation": "AUS",
+    "countryCode": "AUS",
+    "annotations": null,
+    "metadata": {}
+   },
+   "pts": 83.11535354209109,
+   "pos": 7,
+   "previousPts": 84.42687253249096,
+   "previousPos": 7
+  },
+  {
+   "team": {
+    "id": "40",
+    "altId": "04d2f378-4674-4932-a2bf-9f36537b4618",
+    "name": "Argentina",
+    "abbreviation": "ARG",
+    "countryCode": "ARG",
+    "annotations": null,
+    "metadata": {}
+   },
+   "pts": 81.61915803386935,
+   "pos": 8,
+   "previousPts": 82.24458376012659,
+   "previousPos": 8
+  }
+ ],
+ "effective": {
+  "millis": 1794225689566,
+  "gmtOffset": 0.0,
+  "label": "2026-11-09"
+ }
+}
