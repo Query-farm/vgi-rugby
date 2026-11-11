@@ -28,18 +28,18 @@ needs no credentials. It does not rehost or store any dataset.
 
 ## Quick start
 
-Install the released worker with `uv`:
+The worker is not published to PyPI. `uvx` runs the tagged release straight from
+GitHub and caches it after the first use:
 
 ```bash
-uv tool install vgi-rugby
-vgi-rugby
+uvx --from git+https://github.com/Query-farm/vgi-rugby@v0.1.0 vgi-rugby --help
 ```
 
 Launch Haybarn with the catalog pre-attached:
 
 ```bash
 uvx haybarn-cli \
-  -cmd "INSTALL vgi FROM community; LOAD vgi; ATTACH 'rugby' (TYPE vgi, LOCATION 'vgi-rugby');" \
+  -cmd "INSTALL vgi FROM community; LOAD vgi; ATTACH 'rugby' (TYPE vgi, LOCATION 'uvx --from git+https://github.com/Query-farm/vgi-rugby@v0.1.0 vgi-rugby');" \
   :memory:
 ```
 
@@ -50,7 +50,7 @@ INSTALL vgi FROM community;
 LOAD vgi;
 ATTACH 'rugby' (
   TYPE vgi,
-  LOCATION 'vgi-rugby'
+  LOCATION 'uvx --from git+https://github.com/Query-farm/vgi-rugby@v0.1.0 vgi-rugby'
 );
 ```
 
@@ -251,7 +251,7 @@ anonymous access:
 export VGI_SIGNING_KEY='a-long-random-secret-shared-by-every-replica'
 export VGI_BEARER_TOKENS='replace-with-a-random-token=haybarn'
 
-vgi-rugby-http \
+uvx --from git+https://github.com/Query-farm/vgi-rugby@v0.1.0 vgi-rugby-http \
   --host 0.0.0.0 \
   --port 8000 \
   --cors-origins 'https://sql.example.com' \
@@ -346,9 +346,12 @@ pinned to settled history: the 2026 Six Nations, England v Australia on
 serialized scheduled workflow, together with the executable VGI catalog
 examples (`vgi-lint ... --execute-concurrency 1 --fail-on error`).
 
-Releases are driven by GitHub releases. Create a release named `vX.Y.Z` that
-matches the version in `pyproject.toml`. CI then builds, attests and validates
-the distributions, and publishes them through PyPI trusted publishing.
+Publishing is driven by releases. Create a GitHub release named `vX.Y.Z` that
+matches the version in `pyproject.toml`. CI then builds, validates and attests
+the wheel and sdist, attaches them to the release, and publishes a
+multi-platform container image to `ghcr.io/query-farm/vgi-rugby`. The package is
+not published to PyPI; install it from the release tag as shown in the quick
+start.
 
 ## License
 
