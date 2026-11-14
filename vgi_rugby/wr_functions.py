@@ -19,6 +19,7 @@ from vgi_rpc.rpc import OutputCollector
 
 from vgi_rugby import fetch
 from vgi_rugby.common import emit, function_examples, function_tags
+from vgi_rugby.composed import NATIONS_CHAMPIONSHIP_RANKS, SCORERS_WITH_POSITIONS
 from vgi_rugby.wr_schemas import (
     GENDERS,
     MATCH_SCHEMA,
@@ -251,7 +252,8 @@ class MatchesFunction(TableFunctionGenerator[MatchesArgs]):
                     "SELECT local_date, home_team_name, home_score, away_score, away_team_name "
                     "FROM rugby.main.matches(start_date := DATE '2026-11-01', end_date := DATE '2026-11-10') "
                     "WHERE competition ILIKE 'Nations Championship%' ORDER BY kickoff",
-                )
+                ),
+                NATIONS_CHAMPIONSHIP_RANKS,
             ],
         )
         examples = function_examples(tags)
@@ -464,7 +466,8 @@ class MatchTimelineFunction(TableFunctionGenerator[MatchArgs]):
                     "Scoring sequence of England v Australia, 8 November 2026.",
                     "SELECT clock_label, team_name, event_type, player_name, home_score, away_score "
                     f"FROM rugby.main.match_timeline('{_SAMPLE_MATCH}') WHERE points > 0 ORDER BY sequence",
-                )
+                ),
+                SCORERS_WITH_POSITIONS,
             ],
         )
         examples = function_examples(tags)

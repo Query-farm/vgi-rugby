@@ -18,6 +18,7 @@ from vgi_rpc.rpc import OutputCollector
 
 from vgi_rugby import fetch
 from vgi_rugby.common import emit, function_examples, function_tags
+from vgi_rugby.composed import SIX_NATIONS_RANKING_MOVES, SIX_NATIONS_UPSETS
 from vgi_rugby.espn_schemas import (
     EVENT_SCHEMA,
     LINEUP_SCHEMA,
@@ -135,6 +136,7 @@ class StandingsFunction(TableFunctionGenerator[SeasonArgs]):
                     "SELECT rank, team_name, table_points FROM rugby.main.standings("
                     "league := 'premiership', season := 2026) ORDER BY rank",
                 ),
+                SIX_NATIONS_RANKING_MOVES,
             ],
         )
         examples = function_examples(tags)
@@ -286,7 +288,8 @@ class ResultsFunction(TableFunctionGenerator[SeasonArgs]):
                     "Every 2026 Six Nations result.",
                     "SELECT kickoff::DATE AS day, home_team_name, home_score, away_score, away_team_name "
                     "FROM rugby.main.results(league := 'six_nations', season := 2026) ORDER BY kickoff",
-                )
+                ),
+                SIX_NATIONS_UPSETS,
             ],
         )
         examples = function_examples(tags)

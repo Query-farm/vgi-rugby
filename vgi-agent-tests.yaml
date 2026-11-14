@@ -111,3 +111,33 @@ tasks:
     success_criteria: >-
       Uses match_squads for England's number 10 (Fin Smith) and match_stats for England's tackle
       count (139) in the 8 November 2026 test against Australia.
+
+  - name: france_england_top_scorer
+    check_sql: >-
+      SELECT
+        (SELECT count(*) = 1 AND bool_and(event_id = 602516 AND home_score = 48 AND away_score = 46)
+         FROM rugby.main.results(league := 'six_nations', season := 2026)
+         WHERE home_team_name = 'France' AND away_team_name = 'England')
+        AND (SELECT arg_max(player_name, points) = 'Louis Bielle-Biarrey' AND max(points) = 20
+               AND max(tries) FILTER (WHERE player_name = 'Louis Bielle-Biarrey') = 4
+             FROM rugby.main.match_player_stats('six_nations', 602516)) AS ok
+    success_criteria: >-
+      Finds ESPN event 602516 (France 48-46 England, 14 March 2026) with results() or
+      scoreboard(), then uses match_player_stats to name Louis Bielle-Biarrey as top scorer with
+      20 points from 4 tries.
+
+  - name: england_bench_points
+    check_sql: >-
+      SELECT
+        (SELECT count(*) = 1 FROM rugby.main.matches(start_date := DATE '2026-11-08', end_date := DATE '2026-11-08')
+         WHERE match_id = 'd21f7bed-f2f9-45bd-be33-3a0fc9beec42' AND home_team_name = 'England')
+        AND (SELECT sum(points) = 15 AND arg_max(player_name, points) = 'Henry Pollock' AND max(points) = 10
+             FROM rugby.main.match_squads('d21f7bed-f2f9-45bd-be33-3a0fc9beec42')
+             WHERE team_name = 'England' AND NOT is_starter)
+        AND (SELECT count(*) = 3 FROM rugby.main.match_timeline('d21f7bed-f2f9-45bd-be33-3a0fc9beec42') AS t
+             JOIN rugby.main.match_squads('d21f7bed-f2f9-45bd-be33-3a0fc9beec42') AS sq USING (wr_player_id)
+             WHERE t.team_name = 'England' AND t.points > 0 AND NOT sq.is_starter) AS ok
+    success_criteria: >-
+      Finds the match_id with matches() for 8 November 2026 and uses match_squads (is_starter
+      false), alone or joined to match_timeline, to report 15 points from England's replacements,
+      with Henry Pollock top on 10 (two tries) and Ben Spencer 5.

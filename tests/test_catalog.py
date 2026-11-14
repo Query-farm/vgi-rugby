@@ -112,7 +112,7 @@ def test_agent_test_file_matches_catalog_tasks() -> None:
     file_tasks = {task["name"]: task for task in document["tasks"]}
     catalog_tasks = {task["name"] for task in json.loads(RUGBY_CATALOG.tags["vgi.agent_test_tasks"])}
     assert set(file_tasks) == catalog_tasks
-    assert 6 <= len(file_tasks) <= 10
+    assert 6 <= len(file_tasks) <= 12
     for task in file_tasks.values():
         assert "check_sql" in task, task["name"]
         assert "reference_sql" not in task, task["name"]

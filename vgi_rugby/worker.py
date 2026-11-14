@@ -10,6 +10,7 @@ from vgi import Worker
 from vgi.catalog import Catalog, ConstraintInfo, Schema, Table, constraint_record
 
 from vgi_rugby.competitions import COMPETITIONS_SCHEMA, CompetitionsFunction
+from vgi_rugby.composed import COMPOSED_EXAMPLES
 from vgi_rugby.espn_functions import ESPN_FUNCTIONS, CurrentStandingsFunction
 from vgi_rugby.espn_schemas import STANDINGS_SCHEMA
 from vgi_rugby.leagues import HEADLINE_LEAGUES, LEAGUES
@@ -156,6 +157,13 @@ _COMPETITIONS_TAGS = {
     ),
 }
 
+_SCHEMA_EXAMPLES = json.dumps(
+    [
+        *json.loads(_STANDINGS_TAGS["vgi.example_queries"]),
+        *({"description": description, "sql": sql} for description, sql in COMPOSED_EXAMPLES),
+    ]
+)
+
 _EXECUTABLE_EXAMPLES = json.dumps(
     [
         {
@@ -250,6 +258,20 @@ _AGENT_TEST_TASKS = json.dumps(
             "prompt": (
                 "Who started at fly-half for England against Australia on 8 November 2026, and how "
                 "many tackles did England make in that match?"
+            ),
+        },
+        {
+            "name": "france_england_top_scorer",
+            "prompt": (
+                "In the final match of the 2026 Six Nations between France and England, what was "
+                "the score, which player scored the most points, and how many tries did he score?"
+            ),
+        },
+        {
+            "name": "england_bench_points",
+            "prompt": (
+                "In England's test against Australia on 8 November 2026, how many points did "
+                "England's replacements score, and which replacement scored the most?"
             ),
         },
     ]
@@ -423,7 +445,7 @@ RUGBY_CATALOG = Catalog(
                     "identifiers (`event_id`, `team_id`, `player_id`) are separate id spaces; join "
                     "across the two sources on team names, not ids."
                 ),
-                "vgi.example_queries": _STANDINGS_TAGS["vgi.example_queries"],
+                "vgi.example_queries": _SCHEMA_EXAMPLES,
             },
             functions=[*WR_FUNCTIONS, *ESPN_FUNCTIONS, CompetitionsFunction],
             tables=[

@@ -209,6 +209,36 @@ The worker sets `is_starter` from shirt numbers instead: numbers 1-15 started.
 ESPN often flags no captain, so `is_captain` is `NULL` for such a side. ESPN's
 rugby feed does not record substitutions; `match_timeline()` has them.
 
+### Combining sources
+
+World Rugby and ESPN use separate ids, so join across the two sources on team
+names. Within one source, join on its ids: `wr_team_id` and `wr_player_id`
+for World Rugby, `event_id` and `player_id` for ESPN.
+
+```sql
+-- 2026 Six Nations upsets: results won by the side ranked lower going in
+WITH start_ranks AS (
+    SELECT team_name, position
+    FROM rugby.main.world_rankings(as_of := DATE '2026-02-01')
+)
+SELECT r.kickoff::DATE AS day, r.home_team_name, r.home_score, r.away_score,
+       r.away_team_name, h.position AS home_rank, a.position AS away_rank
+FROM rugby.main.results(league := 'six_nations', season := 2026) AS r
+JOIN start_ranks AS h ON h.team_name = r.home_team_name
+JOIN start_ranks AS a ON a.team_name = r.away_team_name
+WHERE (r.home_score > r.away_score AND h.position > a.position)
+   OR (r.away_score > r.home_score AND a.position > h.position)
+ORDER BY r.kickoff;
+
+-- England v Australia: each score with the scorer's team-sheet position
+SELECT t.clock_label, t.team_name, t.event_type, t.player_name, sq.position, sq.is_starter
+FROM rugby.main.match_timeline('d21f7bed-f2f9-45bd-be33-3a0fc9beec42') AS t
+LEFT JOIN rugby.main.match_squads('d21f7bed-f2f9-45bd-be33-3a0fc9beec42') AS sq
+  USING (wr_player_id)
+WHERE t.points > 0
+ORDER BY t.sequence;
+```
+
 ## Data sources, licensing and affiliation
 
 **This project is not affiliated with, endorsed by or sponsored by World Rugby,
