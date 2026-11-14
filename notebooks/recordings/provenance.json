@@ -1,0 +1,12 @@
+{
+  "scoreboard": {
+    "url": "https://site.api.espn.com/apis/site/v2/sports/rugby/180659/scoreboard?dates=2026&limit=1000",
+    "retrieved_utc": "2026-11-14T09:50:27.362959+00:00",
+    "sha256": "0e6589e2276b3b01e783416b4de578a9ab7784b49b44da3d0318254bb33af03c"
+  },
+  "standings": {
+    "url": "https://site.api.espn.com/apis/v2/sports/rugby/180659/standings?season=2026",
+    "retrieved_utc": "2026-11-14T09:50:27.497859+00:00",
+    "sha256": "09b977a0ea51715ab0fb1658cb4b6bb5ee077db7f650d896cb04ea54a3b837b7"
+  }
+}

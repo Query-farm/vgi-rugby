@@ -386,3 +386,7 @@ start.
 ## License
 
 MIT. Copyright 2026 Query Farm LLC - https://query.farm
+
+## Executed notebook
+
+[Reconcile season totals and close-game margins](notebooks/README.md) using actual recorded responses, the real worker, and a separately tested live mode.
