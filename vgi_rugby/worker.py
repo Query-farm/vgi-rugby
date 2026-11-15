@@ -414,7 +414,13 @@ RUGBY_CATALOG = Catalog(
             "Join the two sources on team names and dates, never on ids. Split seasons are labelled "
             "by their end year, so the 2026-27 Premiership is season 2027.\n\n"
             "Access is read-only and keyless. The worker is not affiliated with World Rugby, ESPN or "
-            "any league; data is fetched on demand and never rehosted."
+            "any league; data is fetched on demand and never rehosted.\n\n"
+            "## Sources and references\n\n"
+            "- [World Rugby](https://www.world.rugby/), the sport's governing body, and its "
+            "[official world rankings](https://www.world.rugby/tournaments/rankings).\n"
+            "- [ESPN rugby](https://www.espn.com/rugby/) and its "
+            "[league tables](https://www.espn.com/rugby/table); ESPN's endpoints are undocumented and "
+            "subject to the [Disney terms of use](https://disneytermsofuse.com/)."
         ),
     },
     schemas=[

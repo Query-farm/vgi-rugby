@@ -1,6 +1,6 @@
 [project]
 name = "vgi-rugby"
-version = "0.2.0"
+version = "0.2.1"
 description = "A read-only VGI worker exposing rugby union rankings, fixtures, standings and match statistics to Haybarn SQL"
 readme = "README.md"
 license = "MIT"
