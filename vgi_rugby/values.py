@@ -31,7 +31,7 @@ def to_int(value: Any) -> int | None:
         return int(value) if math.isfinite(value) and value.is_integer() else None
     try:
         return int(str(value).strip())
-    except (TypeError, ValueError, OverflowError):
+    except TypeError, ValueError, OverflowError:
         return None
 
 
@@ -41,7 +41,7 @@ def to_float(value: Any) -> float | None:
         return None
     try:
         result = float(value)
-    except (TypeError, ValueError, OverflowError):
+    except TypeError, ValueError, OverflowError:
         return None
     return result if math.isfinite(result) else None
 
@@ -66,7 +66,7 @@ def from_millis(value: Any) -> datetime | None:
         return None
     try:
         return datetime.fromtimestamp(millis / 1_000, tz=UTC)
-    except (OverflowError, OSError, ValueError):
+    except OverflowError, OSError, ValueError:
         return None
 
 
