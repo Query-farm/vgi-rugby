@@ -32,14 +32,14 @@ The worker is not published to PyPI. `uvx` runs the tagged release straight from
 GitHub and caches it after the first use:
 
 ```bash
-uvx --from git+https://github.com/Query-farm/vgi-rugby@v0.2.1 vgi-rugby --help
+uvx --from git+https://github.com/Query-farm/vgi-rugby@v0.2.2 vgi-rugby --help
 ```
 
 Launch Haybarn with the catalog pre-attached:
 
 ```bash
 uvx haybarn-cli \
-  -cmd "INSTALL vgi FROM community; LOAD vgi; ATTACH 'rugby' (TYPE vgi, LOCATION 'uvx --from git+https://github.com/Query-farm/vgi-rugby@v0.2.1 vgi-rugby');" \
+  -cmd "INSTALL vgi FROM community; LOAD vgi; ATTACH 'rugby' (TYPE vgi, LOCATION 'uvx --from git+https://github.com/Query-farm/vgi-rugby@v0.2.2 vgi-rugby');" \
   :memory:
 ```
 
@@ -50,7 +50,7 @@ INSTALL vgi FROM community;
 LOAD vgi;
 ATTACH 'rugby' (
   TYPE vgi,
-  LOCATION 'uvx --from git+https://github.com/Query-farm/vgi-rugby@v0.2.1 vgi-rugby'
+  LOCATION 'uvx --from git+https://github.com/Query-farm/vgi-rugby@v0.2.2 vgi-rugby'
 );
 ```
 
@@ -281,7 +281,7 @@ anonymous access:
 export VGI_SIGNING_KEY='a-long-random-secret-shared-by-every-replica'
 export VGI_BEARER_TOKENS='replace-with-a-random-token=haybarn'
 
-uvx --from git+https://github.com/Query-farm/vgi-rugby@v0.2.1 vgi-rugby-http \
+uvx --from git+https://github.com/Query-farm/vgi-rugby@v0.2.2 vgi-rugby-http \
   --host 0.0.0.0 \
   --port 8000 \
   --cors-origins 'https://sql.example.com' \
