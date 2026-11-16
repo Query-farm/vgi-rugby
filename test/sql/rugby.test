@@ -1,0 +1,39 @@
+# name: test/sql/rugby.test
+# description: Hermetic end-to-end coverage: every current table plus standings, timeline and
+#   player-stat calls, served from tests/fixtures by test/mock_api/server.py (see ci/run-integration.sh).
+# group: [rugby]
+
+require vgi
+
+require-env VGI_RUGBY_WORKER
+
+require-env WORLD_RUGBY_API_BASE_URL
+
+statement ok
+ATTACH 'rugby' (TYPE vgi, LOCATION '{VGI_RUGBY_WORKER}');
+
+# 8 men + 8 women ranked; 6 recorded matches; 9 headline tables of 6 teams; 25 competitions.
+query IIII
+SELECT
+  (SELECT count(*) FROM rugby.main.current_world_rankings),
+  (SELECT count(*) FROM rugby.main.current_matches),
+  (SELECT count(*) FROM rugby.main.current_standings),
+  (SELECT count(*) FROM rugby.main.competitions);
+----
+16	6	54	25
+
+query T
+SELECT team_name FROM rugby.main.standings(league := 'six_nations', season := 2026) WHERE rank = 1;
+----
+France
+
+query I
+SELECT max(home_score) FROM rugby.main.match_timeline('d21f7bed-f2f9-45bd-be33-3a0fc9beec42');
+----
+45
+
+# The trimmed Ireland v Scotland box score holds 39 points.
+query I
+SELECT sum(points) FROM rugby.main.match_player_stats('six_nations', 602514);
+----
+39
